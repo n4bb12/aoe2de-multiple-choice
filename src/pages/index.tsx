@@ -1,6 +1,6 @@
 import { GetStaticProps } from "next"
 import React, { FC } from "react"
-import { PrimaryButton } from "src/components/PrimaryButton"
+import { Button } from "src/components/Button"
 import { routes } from "src/config"
 import { backgrounds } from "src/data/backgrounds"
 import { SharedPageProps } from "src/data/shared"
@@ -20,9 +20,9 @@ export const getStaticProps: GetStaticProps<PageProps> = async (context) => {
 
 const Page: FC = () => {
   return (
-    <PrimaryButton as="link" href={routes.queue}>
+    <Button as="link" href={routes.queue}>
       Los geht's
-    </PrimaryButton>
+    </Button>
   )
 }
 

@@ -6,5 +6,11 @@ export type CivIconProps = {
 }
 
 export const CivIcon: FC<CivIconProps> = ({ civ }) => {
-  return <img src={civ.icon} className="w-[104px] h-[104px]" />
+  return (
+    <img
+      src={civ.icon}
+      alt={civ.name}
+      className="w-[104px] h-[104px] flex mx-auto"
+    />
+  )
 }
