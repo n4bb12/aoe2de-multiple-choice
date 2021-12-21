@@ -1,11 +1,10 @@
 import { FC } from "react"
-import { Civ } from "src/questions/civs"
+import { Civ } from "src/data/civs"
 
 export type CivIconProps = {
   civ: Civ
 }
 
 export const CivIcon: FC<CivIconProps> = ({ civ }) => {
-  const icon = "/civs/" + civ.icon
-  return <img src={icon} className="w-[104px] h-[104px]" />
+  return <img src={civ.icon} className="w-[104px] h-[104px]" />
 }

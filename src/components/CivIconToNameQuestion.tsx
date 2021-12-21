@@ -1,5 +1,5 @@
 import React, { FC } from "react"
-import { Civ } from "src/questions/civs"
+import { Civ } from "src/data/civs"
 import { CivIcon } from "./CivIcon"
 
 export type CivIconToNameQuestionProps = {
@@ -11,7 +11,7 @@ export const CivIconToNameQuestion: FC<CivIconToNameQuestionProps> = ({
 }) => {
   return (
     <div className="grid justify-items-center">
-      <div className="mb-4 text-xl font-bold">Wie heißt diese Zivilisation?</div>
+      <div className="mb-2 text-xl font-bold">Wie heißt diese Zivilisation?</div>
       <CivIcon civ={civ} />
     </div>
   )

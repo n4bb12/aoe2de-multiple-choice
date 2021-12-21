@@ -2,7 +2,7 @@ import { shuffle } from "lodash"
 import React, { ReactNode } from "react"
 import { CivIconToNameAnswer } from "src/components/CivIconToNameAnswer"
 import { CivIconToNameQuestion } from "src/components/CivIconToNameQuestion"
-import { civs } from "src/questions/civs"
+import { civs } from "src/data/civs"
 
 function randomCivs() {
   return shuffle(civs)

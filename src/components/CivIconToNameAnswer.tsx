@@ -1,5 +1,5 @@
 import { FC } from "react"
-import { Civ } from "src/questions/civs"
+import { Civ } from "src/data/civs"
 
 export type CivIconToNameAnswerProps = {
   civ: Civ
