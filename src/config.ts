@@ -1,4 +1,4 @@
 export const routes = {
   home: "/",
-  queue: "/queue",
+  civs: "/civs",
 } as const

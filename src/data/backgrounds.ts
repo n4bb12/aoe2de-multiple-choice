@@ -18,3 +18,7 @@ export const backgrounds = [
   "/wallpapers/age-of-empires-2-definitive-edition_6069397.jpg",
   "/wallpapers/age-of-empires-2-definitive-edition_6069398.jpg",
 ]
+
+export function getRandomBackground() {
+  return backgrounds[Math.floor(Math.random() * backgrounds.length)]
+}

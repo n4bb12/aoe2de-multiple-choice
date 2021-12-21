@@ -1,8 +1,12 @@
 import React, { FC, useEffect, useState } from "react"
 import { MultipleChoice } from "src/components/MultipleChoice"
-import { QueueData, buildQueueData } from "src/queue/buildQueueData"
+import { QueueData } from "src/queue/buildQueueData"
 
-export const Queue: FC = () => {
+export type QueueProps = {
+  buildQueueData: () => QueueData
+}
+
+export const Queue: FC<QueueProps> = ({ buildQueueData }) => {
   const [queue, setQueue] = useState<QueueData>([])
   const [queueIndex, setQueueIndex] = useState(0)
 

@@ -1,24 +1,22 @@
 import { GetStaticProps } from "next"
 import React, { FC } from "react"
 import { Queue } from "src/components/Queue"
-import { backgrounds } from "src/data/backgrounds"
+import { getRandomBackground } from "src/data/backgrounds"
 import { SharedPageProps } from "src/data/shared"
+import { buildCivQueue } from "src/queue/buildQueueData"
 
 type PageProps = SharedPageProps
 
 export const getStaticProps: GetStaticProps<PageProps> = async (context) => {
-  const randomBackground =
-    backgrounds[Math.floor(Math.random() * backgrounds.length)]
-
   return {
     props: {
-      background: randomBackground,
+      background: getRandomBackground(),
     },
   }
 }
 
 const Page: FC = () => {
-  return <Queue />
+  return <Queue buildQueueData={buildCivQueue} />
 }
 
 export default Page
