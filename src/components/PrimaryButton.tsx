@@ -16,7 +16,7 @@ export const PrimaryButton: FC<PrimaryButtonProps> = ({
   ...props
 }) => {
   const className =
-    "w-full px-4 py-2 text-white bg-blue-700 rounded-xl hover:bg-blue-600"
+    "block w-full px-4 py-2 text-center text-white bg-blue-700 rounded-xl hover:bg-blue-600"
 
   if (as === "link") {
     return <BaseLink {...(props as LinkProps)} className={className} />

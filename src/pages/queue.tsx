@@ -1,6 +1,5 @@
 import { GetStaticProps } from "next"
 import React, { FC } from "react"
-import { MainLayout } from "src/components/MainLayout"
 import { Queue } from "src/components/Queue"
 import { backgrounds } from "src/data/backgrounds"
 import { SharedPageProps } from "src/data/shared"
@@ -19,11 +18,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async (context) => {
 }
 
 const Page: FC = () => {
-  return (
-    <MainLayout>
-      <Queue />
-    </MainLayout>
-  )
+  return <Queue />
 }
 
 export default Page
