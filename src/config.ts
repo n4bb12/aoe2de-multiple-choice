@@ -1,4 +1,4 @@
 export const routes = {
   home: "/",
-  civs: "/civs",
+  civs: "/civ-icons",
 } as const
