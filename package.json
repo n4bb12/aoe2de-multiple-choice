@@ -6,7 +6,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write ."
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "fix": "yarn typecheck && yarn lint --fix && yarn format"
   },
   "dependencies": {
     "@hookstate/core": "^3.0.13",
