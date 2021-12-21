@@ -17,6 +17,8 @@ export const Queue: FC = () => {
 
   useEffect(() => {
     onContinue()
+    // We only want to run this once on initial render.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   if (!queue.length) {

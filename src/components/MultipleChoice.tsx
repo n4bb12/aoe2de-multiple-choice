@@ -1,4 +1,5 @@
-import { FC, ReactNode, useState } from "react"
+import React, { FC, ReactNode, useState } from "react"
+import { PrimaryButton } from "./PrimaryButton"
 
 const CorrectAnswer: FC = ({ children }) => (
   <div className="w-full px-4 py-2 text-center text-white bg-green-700 cursor-default rounded-xl">
@@ -24,15 +25,6 @@ const AnswerButton: FC<{ onClick: () => void }> = ({ children, onClick }) => (
     onClick={onClick}
   >
     {children}
-  </button>
-)
-
-const ContinueButton: FC<{ onClick: () => void }> = ({ onClick }) => (
-  <button
-    className="w-full px-4 py-2 text-white bg-blue-700 rounded-xl hover:bg-blue-600"
-    onClick={onClick}
-  >
-    Weiter
   </button>
 )
 
@@ -81,12 +73,14 @@ export const MultipleChoice: FC<MultipleChoiceProps> = ({
       </div>
 
       {selected && (
-        <ContinueButton
+        <PrimaryButton
           onClick={() => {
             setSelected(null)
             onContinue()
           }}
-        />
+        >
+          Weiter
+        </PrimaryButton>
       )}
     </div>
   )

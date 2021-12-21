@@ -1,14 +1,13 @@
 import React, { FC } from "react"
+import { useBackground } from "src/state/background"
 
-export type BackgroundProps = {
-  src: string
-}
+export const Background: FC = ({ children }) => {
+  const background = useBackground()
 
-export const Background: FC<BackgroundProps> = ({ src, children }) => {
   return (
     <div
       className="bg-top bg-no-repeat bg-cover"
-      style={{ backgroundImage: `url(${src})` }}
+      style={{ backgroundImage: `url(${background})` }}
     >
       {children}
     </div>
