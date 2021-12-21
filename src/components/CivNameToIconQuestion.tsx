@@ -11,7 +11,8 @@ export const CivNameToIconQuestion: FC<CivNameToIconQuestionProps> = ({
   return (
     <div className="grid text-center justify-items-center">
       <div className="text-xl font-bold">
-        Welches Banner haben die <span className="text-blue-700">{civ.name}</span>?
+        Welches Banner haben die{" "}
+        <span className="text-blue-700">{civ.name}</span>?
       </div>
     </div>
   )

@@ -10,7 +10,9 @@ export const Header: FC = () => {
         <nav className="p-4">
           <ul className="text-center">
             <li>
-              <BaseLink href={routes.home} className="hover:underline">Startseite</BaseLink>
+              <BaseLink href={routes.home} className="hover:underline">
+                Startseite
+              </BaseLink>
             </li>
           </ul>
         </nav>

@@ -11,7 +11,9 @@ export const CivIconToNameQuestion: FC<CivIconToNameQuestionProps> = ({
 }) => {
   return (
     <div className="grid text-center justify-items-center">
-      <div className="mb-2 text-xl font-bold">Wie heißt diese Zivilisation?</div>
+      <div className="mb-2 text-xl font-bold">
+        Wie heißt diese Zivilisation?
+      </div>
       <CivIcon civ={civ} />
     </div>
   )
