@@ -1,6 +1,6 @@
 import React, { FC } from "react"
 import { routes } from "src/config"
-import { BaseLink } from "./BaseLink"
+import { A } from "./A"
 import { Card } from "./Card"
 
 export const Header: FC = () => {
@@ -10,9 +10,9 @@ export const Header: FC = () => {
         <nav className="p-4">
           <ul className="text-center">
             <li>
-              <BaseLink href={routes.home} className="hover:underline">
+              <A href={routes.home} className="hover:underline">
                 Startseite
-              </BaseLink>
+              </A>
             </li>
           </ul>
         </nav>

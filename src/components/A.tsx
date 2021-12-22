@@ -2,7 +2,7 @@ import NextjsLink, { LinkProps as NextjsLinkProps } from "next/link"
 import { useRouter } from "next/router"
 import React, { AnchorHTMLAttributes, CSSProperties, forwardRef } from "react"
 
-export type BaseLinkProps = AnchorHTMLAttributes<HTMLAnchorElement> &
+export type AProps = AnchorHTMLAttributes<HTMLAnchorElement> &
   NextjsLinkProps & {
     href: string
     disabled?: boolean
@@ -22,7 +22,7 @@ const appUrlRegExp = /^\w+:/
  * - supports disabling a link by setting `disabled`
  * - ensures anchors lead to the expected page
  */
-export const BaseLink = forwardRef<HTMLAnchorElement, BaseLinkProps>(
+export const A = forwardRef<HTMLAnchorElement, AProps>(
   (
     {
       children,
@@ -120,4 +120,4 @@ export const BaseLink = forwardRef<HTMLAnchorElement, BaseLinkProps>(
   },
 )
 
-BaseLink.displayName = "BaseLink"
+A.displayName = "A"

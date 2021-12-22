@@ -1,5 +1,5 @@
 import React, { ButtonHTMLAttributes, FC } from "react"
-import { BaseLink, BaseLinkProps } from "./BaseLink"
+import { A, AProps } from "./A"
 
 export type ButtonVariantProps = {
   variant?: "primary" | "secondary"
@@ -9,7 +9,7 @@ export type AsButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   as?: "button" | undefined
 }
 
-export type AsLinkProps = BaseLinkProps & {
+export type AsLinkProps = AProps & {
   as: "link"
 }
 
@@ -29,7 +29,7 @@ export const Button: FC<ButtonProps> = ({
     "block w-full px-4 py-2 text-center rounded-xl " + variantClassName
 
   if (as === "link") {
-    return <BaseLink {...(props as AsLinkProps)} className={className} />
+    return <A {...(props as AsLinkProps)} className={className} />
   }
 
   return <button {...(props as AsButtonProps)} className={className} />
