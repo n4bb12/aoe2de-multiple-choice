@@ -1,4 +1,5 @@
 export const routes = {
   home: "/",
-  civs: "/civ-icons",
+  civCrests: "/civ-crests",
+  civTeamBonuses: "/civ-team-bonuses",
 } as const

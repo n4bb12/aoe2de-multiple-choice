@@ -1,0 +1,699 @@
+[
+  {
+    "name": "Äthiopier",
+    "icon": "/crests/ethiopians.png",
+    "summary": "Volk von Bogenschützen",
+    "bonuses": [
+      "+100 Gold, +100 Nahrung beim Fortschreiten in das nächste Zeitalter.",
+      "Pikenier-Entwicklung gratis."
+    ],
+    "specialUnits": [
+      "Shotelkrieger (Infanterie)"
+    ],
+    "specialTechs": [
+      "Königliche Erben (Shotelkrieger werden fast augenblicklich erschaffen)",
+      "Torsionsgeschütze (Explosionsradius von Belagerungseinheiten erhöht)"
+    ],
+    "teamBonus": "Türme, Außenposten und Steinmauern +3 Sichtweite"
+  },
+  {
+    "name": "Azteken",
+    "icon": "/crests/aztecs.png",
+    "summary": "Unberittenes Volk von Mönchen",
+    "bonuses": [
+      "Militäreinheiten 11 % schneller erschaffen",
+      "Mönche +5 LP pro Kloster-Technologie",
+      "Start mit +50 Gold"
+    ],
+    "specialUnits": [
+      "Jaguarkrieger (Infanterie)"
+    ],
+    "specialTechs": [
+      "Speerschleuder (Plänkler +1 Angriffsstärke, +1 Reichweite)",
+      "Blumenkriege (+4 Angriffsstärke für Infantrie)"
+    ],
+    "teamBonus": "Reliquien erzeugen +33 % Gold"
+  },
+  {
+    "name": "Berber",
+    "icon": "/crests/berber.png",
+    "summary": "Volk von Seefahrern und Reitern",
+    "bonuses": [
+      "Stalleinheiten kosten -15 % in Ritter-, -20 % in Imperialzeit",
+      "Schiffe bewegen sich +10 % schneller"
+    ],
+    "specialUnits": [
+      "Kamelbogenschütze (Beritt. Bogenschütze), Ginete (Beritt. Plänkler)"
+    ],
+    "specialTechs": [
+      "Kasbah (Team-Burgen arbeiten +25 % schneller)",
+      "Maghreb-Kamele (Kameleinheiten regenerieren sich)"
+    ],
+    "teamBonus": "Ginete ab Ritterzeit in Schießanlage verfügbar"
+  },
+  {
+    "name": "Birmanen",
+    "icon": "/crests/burmese.png",
+    "summary": "Volk von Mönchen und Elefantenreitern",
+    "bonuses": [
+      "Infanterie +1 Angriffskraft pro Zeitalter (ab der Feudalzeit)",
+      "Klostertechnologien 50 % günstiger"
+    ],
+    "specialUnits": [
+      "Arambai (ber. Schütze)"
+    ],
+    "specialTechs": [
+      "Howdah (Elefantenreiter +1/+2 Panzerung)",
+      "Manipur-Kavallerie (Kavallerie +5 Angriff gg. Bogenschützen)"
+    ],
+    "teamBonus": "Reliquien zu Spielbeginn auf der Karte sichtbar"
+  },
+  {
+    "name": "Böhmen",
+    "icon": "/crests/bohemians.png",
+    "summary": "Schießpulver- und Mönchsvolk",
+    "bonuses": [
+      "Chemie und Leichter Kanonier in Ritterzeit verfügbar",
+      "Speerkämpfer und Weiterentwicklungen +25 % Bonusschaden",
+      "Eifer und Heiligkeit gelten für Dorfbewohner",
+      "Bergarbeiterlager-Technologien kostenlos"
+    ],
+    "specialUnits": [
+      "Hussitenwagen (Belagerungswaffe), Haufnitze (Belagerungskanone)"
+    ],
+    "specialTechs": [
+      "Wagenburg (Schießpulvereinheiten bewegen sich um 15 % schneller)",
+      "Hussitenreformen (Mönche und Kloster-Technologien kosten Nahrung statt Gold)"
+    ],
+    "teamBonus": "Märkte arbeiten 80 % schneller"
+  },
+  {
+    "name": "Briten",
+    "icon": "/crests/britons.png",
+    "summary": "Volk einfacher Bogenschützen",
+    "bonuses": [
+      "Einfache Bogenschützen (außer Plänkler) haben je +1 Reichweite in der Ritterzeit und der Imperialzeit (+2 gesamt)",
+      "Schäfer arbeiten um 25 % schneller"
+    ],
+    "specialUnits": [
+      "Langbogenschütze"
+    ],
+    "specialTechs": [
+      "Freisassen (+1 Reichweite für einfache Schützen",
+      "+2 Angriffsstärke für Türme)",
+      "Warwolf (Triböcke verursachen Explosionsschaden)"
+    ],
+    "teamBonus": "Schießanlagen arbeiten um 20 % schneller"
+  },
+  {
+    "name": "Bulgaren",
+    "icon": "/crests/bulgarians.png",
+    "summary": "Infanterie- und Kavallerievolk",
+    "bonuses": [
+      "Dorfzentren kosten -50 % Steine",
+      "Schmiede- und Belagerungswerkstatttechnologien kosten -50 % Nahrung",
+      "Kann Kreposte bauen"
+    ],
+    "specialUnits": [
+      "Konnik (Kavallerie)"
+    ],
+    "specialTechs": [
+      "Steigbügel (+33 % Angriffsgeschwindigkeit für Kavallerie)",
+      "Bagaine (+5 Nahkampfrüstung für Milizsoldatenzweig)"
+    ],
+    "teamBonus": "Schmieden arbeiten 80 % schneller"
+  },
+  {
+    "name": "Burgunder",
+    "icon": "/crests/burgundians.png",
+    "summary": "Berittenes Volk",
+    "bonuses": [
+      "Stalltechnologien kosten -50 %",
+      "Chevalierentwicklung in Ritterzeit verfügbar",
+      "Schießpulvereinheiten +25 % Angriffsstärke"
+    ],
+    "specialUnits": [
+      "Coustillier (Kavallerie), Flämischer Milizsoldat (Infanterie)"
+    ],
+    "specialTechs": [
+      "Burgundische Weinberge (Bauern erzeugen neben Nahrung langsam Gold)",
+      "Flämische Revolution (entwickelt alle Dorfbewohner zu flämischen Milizsoldaten weiter; Erschaffung von Flämischen Milizsoldaten im Dorfzentrum)"
+    ],
+    "teamBonus": "Reliquien erzeugen Gold und Nahrung"
+  },
+  {
+    "name": "Byzantiner",
+    "icon": "/crests/byzantines.png",
+    "summary": "Defensives Volk",
+    "bonuses": [
+      "Kamelreiter, Plänkler, Pikeniere u. Hellebardiere kosten -25 %",
+      "Feuerschiffe greifen +25 % schneller an",
+      "Voranschreiten z. Imperialzeit kostet -33 %",
+      "Gratis Stadtwache & Nachtwache"
+    ],
+    "specialUnits": [
+      "Kataphrakt (Kavallerie)"
+    ],
+    "specialTechs": [
+      "Griechisches Feuer (Feuerschiffe +1 Reichweite)",
+      "Logistik (Kataphrakte verursachen Schaden durch Niederreiten)"
+    ],
+    "teamBonus": "Mönche heilen +100 % schneller"
+  },
+  {
+    "name": "Chinesen",
+    "icon": "/crests/chinese.png",
+    "summary": "Volk von Bogenschützen",
+    "bonuses": [
+      "Technologien kosten -10 % in Feudalzeit,",
+      "-15 % Ritterzeit, -20 % Imperialzeit",
+      "Dorfzentren unterstützen 10 Bevölkerung, +5 Sichtweite",
+      "+50 % Lebenspunkte für Brander"
+    ],
+    "specialUnits": [
+      "Chu Ko Nu (Schütze)"
+    ],
+    "specialTechs": [
+      "Große Mauer (Wälle und Türme +30 % LP)",
+      "Raketentechnik (+2 Angriffsstärke für Chu Ko Nu, +4 für Skorpione)"
+    ],
+    "teamBonus": "Felder +10 % Nahrung"
+  },
+  {
+    "name": "Franken",
+    "icon": "/crests/franks.png",
+    "summary": "Berittenes Volk",
+    "bonuses": [
+      "Kavallerie +20 % Lebenspunkte ab Feudalzeit",
+      "Gratis Mühlentechnologien",
+      "Sammler arbeiten 15 % schneller"
+    ],
+    "specialUnits": [
+      "Axtwerfer (Infanterie)"
+    ],
+    "specialTechs": [
+      "Bartaxt (+1 Reichweite für Axtwerfer)",
+      "Rittertum (Ställe 40 % schneller)"
+    ],
+    "teamBonus": "Ritter haben +2 Sichtweite"
+  },
+  {
+    "name": "Goten",
+    "icon": "/crests/goths.png",
+    "summary": "Unberittenes Volk",
+    "bonuses": [
+      "Infanterie erhält pro Zeitalter +1 Angriffsstärke g. Gebäude (ab Feudalzeit)",
+      "Dorfbewohner +5 Angriff g. Wildschweine; Jäger tragen +15 Fleisch",
+      "Webstuhl kann sofort entwickelt werden",
+      "+10 Bevölkerung in Imperialzeit"
+    ],
+    "specialUnits": [
+      "Huskarl (Infanterie)"
+    ],
+    "specialTechs": [
+      "Anarchie (Huskarls entstehen in Kasernen)",
+      "Mobilität (Kasernen 100 % schneller)"
+    ],
+    "teamBonus": "Kasernen 20 % schneller"
+  },
+  {
+    "name": "Hunnen",
+    "icon": "/crests/huns.png",
+    "summary": "Berittenes Volk",
+    "bonuses": [
+      "Ber. Schützen kosten -10 % in Ritter-, -20 % in Imperialzeit",
+      "Triböcke +30 % treffsicherer"
+    ],
+    "specialUnits": [
+      "Tarkan (Kavallerie)"
+    ],
+    "specialTechs": [
+      "Marodeure (Tarkane im Stall erschaffen)",
+      "Atheismus (+100 Jahre für Siege durch Reliquien/Weltwunder",
+      "Gegnerische Reliquien erzeugen -50 % Rohstoffe)"
+    ],
+    "teamBonus": "Ställe 20 % schneller"
+  },
+  {
+    "name": "Inder",
+    "icon": "/crests/indians.png",
+    "summary": "Volk von Kamelreitern mit Schießpulver",
+    "bonuses": [
+      "Fischer arbeiten +10 % schneller",
+      "Einheiten aus dem Stall erhalten je +1 Durchschlagsrüstung in Ritter- und Imperialzeit (+2 insgesamt)"
+    ],
+    "specialUnits": [
+      "Elefantenbogenschütze (Ber. Schütze), Imperialer Kamelreiter (Kamelreiter)"
+    ],
+    "specialTechs": [
+      "Sultane (Alle Goldeinnahmen 10 % schneller)",
+      "Shatagni (Handrohrschützen haben +1 Reichweite)"
+    ],
+    "teamBonus": "Kameleinheiten +4 Angriffsstärke gg. Gebäude"
+  },
+  {
+    "name": "Inka",
+    "icon": "/crests/inca.png",
+    "summary": "Unberittenes Volk",
+    "bonuses": [
+      "Dorfbewohner profitieren ab der Ritterzeit von Rüstungsentwicklungen der Schmiede",
+      "Häuser bieten Platz für je 10 Bevölkerung",
+      "Gebäude kosten -15 % Stein"
+    ],
+    "specialUnits": [
+      "Kamayuk (Infanterie), Schleuderer (Schütze)"
+    ],
+    "specialTechs": [
+      "Andenschleuder (Plänkler und Schleuderer haben keine Mindestreichweite)",
+      "Stoffschilde (Kamayuks, Schleuderer, Adlerkrieger +1/+2 (Durchschlags-)Rüstung)"
+    ],
+    "teamBonus": "Felderbau +100 % schneller"
+  },
+  {
+    "name": "Italiener",
+    "icon": "/crests/italians.png",
+    "summary": "Volk von Bogenschützen und Seefahrern",
+    "bonuses": [
+      "Hafen- und Universitätstechnologien kosten -33 %",
+      "Fischkutter kosten -15 %",
+      "Schießpulvereinheiten kosten -20 %"
+    ],
+    "specialUnits": [
+      "Genuesischer Armbrustschütze (Schütze), Condottiere (Infanterie)"
+    ],
+    "specialTechs": [
+      "Pavese (Einfache Bogenschützen und Condottieri +1 normale/+1 Durchschlagspanzerung)",
+      "Seidenstraße (Handelseinheiten kosten -50 %)"
+    ],
+    "teamBonus": "Condottiere in der Imperialzeit in Kaserne verfügbar"
+  },
+  {
+    "name": "Japaner",
+    "icon": "/crests/japanese.png",
+    "summary": "Unberittenes Volk",
+    "bonuses": [
+      "Mühle, Holz-/Bergarbeiterlager kosten -50 %",
+      "Angriffsgeschw. ab Feudalzeit +33 %"
+    ],
+    "specialUnits": [
+      "Samurai (Infanterie)"
+    ],
+    "specialTechs": [
+      "Yasama (Türme schießen mehr Pfeile)",
+      "Kataparuto (Triböcke feuern/packen schneller)"
+    ],
+    "teamBonus": "Galeeren +50 % Sichtweite"
+  },
+  {
+    "name": "Kelten",
+    "icon": "/crests/celts.png",
+    "summary": "Volk von Infanterie und Belagerungswaffen",
+    "bonuses": [
+      "Holzfäller arbeiten 15 % schneller",
+      "Belagerungswaffen schießen 25 % schneller",
+      "Kann Schafe stehlen, Schafe in Sichtweite einer keltischen Einheit können nicht gestohlen werden"
+    ],
+    "specialUnits": [
+      "Freischärler (Infanterie)"
+    ],
+    "specialTechs": [
+      "Festung (Burgen und Türme schießen 25 % schneller)",
+      "Keltischer Zorn (Belagerungseinheiten haben +40 % LP)"
+    ],
+    "teamBonus": "Belagerungswerkstatt arbeitet 20 % schneller"
+  },
+  {
+    "name": "Khmer",
+    "icon": "/crests/khmer.png",
+    "summary": "Volk von Belagerern und Elefantenreitern",
+    "bonuses": [
+      "Bauern benötigen keine Mühlen/Dorfzentren, um Nahrung abzuliefern",
+      "Elefantenreiter +10 % schneller",
+      "Dorfbewohner können in Häuser einquartiert werden"
+    ],
+    "specialUnits": [
+      "Ballistenelefant (ber. Skorpion)"
+    ],
+    "specialTechs": [
+      "Stoßzahnschwerter (Elefantenreiter +3 Angriff)",
+      "Doppelarmbrust (Ballistenelefanten und Skorpione schießen zwei Projektile)"
+    ],
+    "teamBonus": "Skorpione +1 Reichweite"
+  },
+  {
+    "name": "Koreaner",
+    "icon": "/crests/koreans.png",
+    "summary": "Defensives Volk von Seefahrern",
+    "bonuses": [
+      "Steinbrucharbeiter arbeiten um 20 % schneller",
+      "Weiterentwicklungen für Türme gratis (Kanonenturm benötigt Chemie)",
+      "Kostenlose Rüstungsweiterentwicklungen für Bogenschützen",
+      "Militäreinheiten (außer Belagerungseinheiten) kosten -20 % Holz"
+    ],
+    "specialUnits": [
+      "Kriegswagen (beritt. Schütze), Schildkrötenschiff (Kriegsschiff)"
+    ],
+    "specialTechs": [
+      "Eupseong (Beobachtungs-, Wach- und Haupttürme +2 Reichweite)",
+      "Shinkichon (+1 Reichweite für Mangen)"
+    ],
+    "teamBonus": "Min. Reichweite von Mangen verringert"
+  },
+  {
+    "name": "Kumanen",
+    "icon": "/crests/cumans.png",
+    "summary": "Kavallerievolk",
+    "bonuses": [
+      "Waffenschmiede und Rammbock sind in der Feudalzeit, Sturmbock-Aufwertung in der Ritterzeit verfügbar",
+      "Schießanlagen und Ställe kosten -75 Holz",
+      "Kavallerie ist pro Zeitalter 5 % schneller (beginnend mit der Feudalzeit)"
+    ],
+    "specialUnits": [
+      "Kiptschak (Berittener Bogenschütze)"
+    ],
+    "specialTechs": [
+      "Steppentierhaltung (Leichte Kavallerie, Steppenreiter und berittene Bogenschützen werden 100 % schneller erschaffen)",
+      "Kumanische Söldner (Teammitglieder können 10 kostenlose Elite-Kiptschak in der Burg erschaffen)"
+    ],
+    "teamBonus": "+33 % LP für Palisadenwälle"
+  },
+  {
+    "name": "Litauer",
+    "icon": "/crests/lithuanians.png",
+    "summary": "Kavallerie- und Mönchsvolk",
+    "bonuses": [
+      "Speerkämpfer und Plänkler sind um 10 % schneller",
+      "Jede einquartierte Reliquie gewährt Rittern und Leitis +1 Angriffsstärke (maximal +4)"
+    ],
+    "specialUnits": [
+      "Leitis (Kavallerie), Flügelhusar (Kavallerie)"
+    ],
+    "specialTechs": [
+      "Hügelfestungen (+3 Reichweite für Dorfzentren)",
+      "Turmschilde (+2 Durchschlagsrüstung für Speerkämpfer und Plänkler)"
+    ],
+    "teamBonus": "Klöster arbeiten um 20 % schneller"
+  },
+  {
+    "name": "Malaien",
+    "icon": "/crests/malay.png",
+    "summary": "Volk von Seefahrern",
+    "bonuses": [
+      "Reusen kosten -33 % und bieten 3x so viel Nahrung",
+      "Elefantenreiter in Ritterzeit 30 %, in Imperialzeit 40 % günstiger"
+    ],
+    "specialUnits": [
+      "Karambitkämpfer (Infanterie)"
+    ],
+    "specialTechs": [
+      "Thalassokratie (Entwickelt Häfen zu Kriegshäfen, die Pfeile verschießen)",
+      "Zwangsrekrutierung (Einheiten der Milizsoldatenlinie kosten zusätzliche Nahrung statt Gold)"
+    ],
+    "teamBonus": "Häfen +100 % Sichtweite"
+  },
+  {
+    "name": "Malier",
+    "icon": "/crests/malians.png",
+    "summary": "Unberittenes Volk",
+    "bonuses": [
+      "Kasernen-Einheiten +1 Durchschlagspanzerung pro Zeitalter (ab Feudalzeit)",
+      "Goldminen sind 30 % ergiebiger"
+    ],
+    "specialUnits": [
+      "Gbeto (Infanterie)"
+    ],
+    "specialTechs": [
+      "Tigui (Nicht besetzte Dorfzentren schießen Pfeile)",
+      "Farimba (Kavallerie +5 Angriffsstärke)"
+    ],
+    "teamBonus": "Universitäten entwickeln +80 % schneller"
+  },
+  {
+    "name": "Maya",
+    "icon": "/crests/mayans.png",
+    "summary": "Volk von Bogenschützen",
+    "bonuses": [
+      "Rohstoffe halten 15 % länger",
+      "Schützen kosten -10 % in der Feudalzeit, -20 % in der Ritterzeit, -30 % in der Imperialzeit"
+    ],
+    "specialUnits": [
+      "Federpfeilschütze (Schütze)"
+    ],
+    "specialTechs": [
+      "Hul’che-Speerschleuderer (Plänkler schleudern zweiten Speer)",
+      "El Dorado (Adlerkrieger haben +40 LP)"
+    ],
+    "teamBonus": "Wälle kosten -50 %"
+  },
+  {
+    "name": "Mongolen",
+    "icon": "/crests/mongols.png",
+    "summary": "Volk berittener Schützen",
+    "bonuses": [
+      "Leichte Kavallerie, Hussaren, Steppenreiter +30 % LP",
+      "Jäger arbeiten 40 % schneller"
+    ],
+    "specialUnits": [
+      "Mangudai (Berittener Bogenschütze)"
+    ],
+    "specialTechs": [
+      "Nomaden (Zerstörte Häuser verringern Wohnraum nicht)",
+      "Drill (Belagerungseinheiten bewegen sich 50 % schneller)"
+    ],
+    "teamBonus": "+2 Sichtweite für Berittene Späher, Leichte Kavallerie und Husaren"
+  },
+  {
+    "name": "Perser",
+    "icon": "/crests/persians.png",
+    "summary": "Berittenes Volk",
+    "bonuses": [
+      "Dorfzentrum und Hafen haben 2x LP, Arbeitsgeschw. +10 % Feudal-, +15 % Ritter-, +20 % Imperialzeit"
+    ],
+    "specialUnits": [
+      "Kriegselefant (Kavallerie)"
+    ],
+    "specialTechs": [
+      "Kamandaran (Einheiten der Bogenschützenlinie kosten Holz statt Gold)",
+      "Mahouts (Kriegselefanten 30 % schneller)"
+    ],
+    "teamBonus": "Ritter +2 Angriffsstärke gegen Schützen"
+  },
+  {
+    "name": "Polen",
+    "icon": "/crests/poles.png",
+    "summary": "Kavallerievolk",
+    "bonuses": [
+      "Gutshof ersetzt Mühle",
+      "Steinabbau erzeugt Gold zusätzlich zu Stein"
+    ],
+    "specialUnits": [
+      "Obuch (Infanterie), Flügelhusar (Kavallerie)"
+    ],
+    "specialTechs": [
+      "Szlachta-Privilegien (Ritter kosten -60 % Gold)",
+      "Lechisches Vermächtnis (Leichte Kavallerie verursacht Trampelschaden)"
+    ],
+    "teamBonus": "Berittener Späher, Leichte Kavallerie, Husar +1 Angriff gg. Bogenschützen"
+  },
+  {
+    "name": "Portugiesen",
+    "icon": "/crests/portuguese.png",
+    "summary": "Volk von Seefahrern mit Schießpulver",
+    "bonuses": [
+      "Technologien werden um 30 % schneller entwickelt",
+      "Schiffe +10 % LP",
+      "Können in der Imperialzeit Feitoria bauen"
+    ],
+    "specialUnits": [
+      "Orgelkanone (Belagerungseinheit), Karavelle (Kriegsschiff)"
+    ],
+    "specialTechs": [
+      "Karacke (Schiffe +1/+1 Rüstung)",
+      "Arkebuse (Schießpulvereinheiten treffsicherer)"
+    ],
+    "teamBonus": "Sichtweite wird ab dem Dunklen Zeitalter geteilt"
+  },
+  {
+    "name": "Sarazenen",
+    "icon": "/crests/saracens.png",
+    "summary": "Volk von Kamelreitern und Seefahrern",
+    "bonuses": [
+      "Marktplatz kostet -100 Holz",
+      "Transportschiffe haben 2x LP,",
+      "2x Ladekapazität",
+      "Galeeren greifen +25 % schneller an",
+      "Kameleinheiten haben +10 LP"
+    ],
+    "specialUnits": [
+      "Mameluck (Kamelreiter)"
+    ],
+    "specialTechs": [
+      "Madrasa (getötete Mönche erstatten 33 % ihrer Kosten zurück)",
+      "Fanatismus (+20 LP für Kameleinheiten)"
+    ],
+    "teamBonus": "Einfache Bogenschützen haben +2 Angriffsstärke gegen Gebäude"
+  },
+  {
+    "name": "Sizilianer",
+    "icon": "/crests/sicilians.png",
+    "summary": "Infanterie- und Kavallerievolk",
+    "bonuses": [
+      "Burgen und Stadtzentren werden 100 % schneller gebaut",
+      "Land-Militäreinheiten (außer Belagerungswaffen) erleiden 50 % weniger Bonusschaden",
+      "Jede Feldentwicklung gibt +100 % mehr Nahrung",
+      "Donjon ersetzt Beobachtungsturm und Weiterentwicklungen"
+    ],
+    "specialUnits": [
+      "Serjeant (Infanterie)"
+    ],
+    "specialTechs": [
+      "Erster Kreuzzug (jedes Dorfzentrum – maximal 5 – bringt einmalig 7 Serjeants hervor; Einheiten sind schwerer zu bekehren)",
+      "Kettenhemd (Ritter +1/+2 Panzerung)"
+    ],
+    "teamBonus": "Transportschiffe erhalten +5 Sichtweite und kosten -50 %"
+  },
+  {
+    "name": "Slawen",
+    "icon": "/crests/slavs.png",
+    "summary": "Volk von Infanterie und Belagerungswaffen",
+    "bonuses": [
+      "Versorgung gratis",
+      "Belagerungseinheiten sind 15 % günstiger"
+    ],
+    "specialUnits": [
+      "Bojar (Kavallerie)"
+    ],
+    "specialTechs": [
+      "Orthodoxie (+3/+3 Rüstung für Mönche)",
+      "Druschina (Infanterie beschädigt angrenzende Einheiten)"
+    ],
+    "teamBonus": "Militärgebäude bieten +5 Wohnraum"
+  },
+  {
+    "name": "Spanier",
+    "icon": "/crests/spanish.png",
+    "summary": "Volk von Mönchen und Schießpulver",
+    "bonuses": [
+      "Schmiedeentwicklungen ohne Gold",
+      "Kanonenschiffe profitieren von Ballistik (feuern schneller und treffsicherer)",
+      "Leichte Kanoniere und Kanonentürme schießen 18 % schneller"
+    ],
+    "specialUnits": [
+      "Konquistador (ber. Handrohrschütze), Missionar (ber. Mönch)"
+    ],
+    "specialTechs": [
+      "Inquisition (Höhere Bekehrungsrate f. Mönche)",
+      "Überlegenheit (Dorfbewohner stärker im Gefecht)"
+    ],
+    "teamBonus": "Handel erzeugt +25 % Gold"
+  },
+  {
+    "name": "Tataren",
+    "icon": "/crests/tatars.png",
+    "summary": "Berittenes Bogenschützenvolk",
+    "bonuses": [
+      "Neue Dorfzentren erzeugen ab der Ritterzeit 2 Schafe",
+      "Einheiten verursachen +25 % Schaden von höherem Gelände",
+      "Daumenring, Parthisches Manöver gratis"
+    ],
+    "specialUnits": [
+      "Keshig (Kavallerie-Plünderer), Brandkamel (Petardier)"
+    ],
+    "specialTechs": [
+      "Seidenrüstung (Leichte Kavallerie, Steppenreiter und Berittene Bogenschützen erhalten +1/+1 (Durchschlags-)Rüstung)",
+      "Belagerungskunst der Timuriden (+2 Reichweite für Triböcke, ermöglicht Brandkamele)"
+    ],
+    "teamBonus": "+2 Sichtweite für Berittene Bogenschützen"
+  },
+  {
+    "name": "Teutonen",
+    "icon": "/crests/teutons.png",
+    "summary": "Unberittenes Volk",
+    "bonuses": [
+      "Türme nehmen 2x mehr Einheiten auf",
+      "Maschikulis und Kräutermedizin kostenlos",
+      "Felder kosten -40 %",
+      "+10 Einheiten in Dorfzentrum stationieren",
+      "Kasernen- und Stalleinheiten je +1 Rüstung ab Ritterzeit und Imperialzeit (insgesamt +2)"
+    ],
+    "specialUnits": [
+      "Deutschritter (Infanterie)"
+    ],
+    "specialTechs": [
+      "Panzerung (Nahkampfrüstung für Belagerungswaffen)",
+      "Zinnen (+3 Reichw. für Burgen",
+      "einquart. Infanterie verschießt Pfeile)"
+    ],
+    "teamBonus": "Einheiten widerstehen Bekehrung"
+  },
+  {
+    "name": "Türken",
+    "icon": "/crests/turks.png",
+    "summary": "Volk mit Schießpulver",
+    "bonuses": [
+      "Goldarbeiter arbeiten um 20 % schneller",
+      "Berittener Späher, Leichte Kavallerie, Husar +1 Durchschlagsrüstung",
+      "Entwicklung von Leichter Kavallerie und Husaren gratis"
+    ],
+    "specialUnits": [
+      "Janitschar (Handrohrschütze)"
+    ],
+    "specialTechs": [
+      "Sipahi (Ber. Bogenschützen +20 LP)",
+      "Artillerie (Kanonentürme, Belagerungskan. und Kanonenschiffe +2 Reichw.)"
+    ],
+    "teamBonus": "Schießpulvereinheiten 25 % schneller erschaffen"
+  },
+  {
+    "name": "Ungarn",
+    "icon": "/crests/magyars.png",
+    "summary": "Berittenes Volk",
+    "bonuses": [
+      "Schmiedekunst, Eisengießen und Schmelzofen gratis (Schmiede benötigt)",
+      "Ber. Späher, Leichte Kavallerie u. Husar kosten -15 %"
+    ],
+    "specialUnits": [
+      "Ungarischer Husar (Kav.)"
+    ],
+    "specialTechs": [
+      "Corvinianische Armee (Ung. Husare kosten kein Gold)",
+      "Reflexbogen (Beritt. Bogenschützen +1 Reichw., +1 Angriffsstärke)"
+    ],
+    "teamBonus": "Bogenschützen +2 Sichtweite"
+  },
+  {
+    "name": "Vietnamesen",
+    "icon": "/crests/vietnamese.png",
+    "summary": "Volk von Bogenschützen",
+    "bonuses": [
+      "Wirtschaftsentwicklungen kosten kein Holz",
+      "Schützeneinheiten +20 % LP",
+      "Wehrpflicht gratis"
+    ],
+    "specialUnits": [
+      "Rattanschütze (Bogenschütze), Imperialer Plänkler (Plänkler)"
+    ],
+    "specialTechs": [
+      "Chatras (Elefantenreiter +100 LP)",
+      "Papiergeld (jedes Teammitglied erhält 500 Gold)"
+    ],
+    "teamBonus": "Entwicklung zum Imperialen Plänkler in der Imperialzeit möglich"
+  },
+  {
+    "name": "Wikinger",
+    "icon": "/crests/vikings.png",
+    "summary": "Unberittenes Volk von Seefahrern",
+    "bonuses": [
+      "Infanterie +20 % LP ab der Feudalzeit",
+      "Schubkarre und Handkarren gratis"
+    ],
+    "specialUnits": [
+      "Berserker (Infanterie), Langschiff (Kriegsschiff)"
+    ],
+    "specialTechs": [
+      "Stammesführer (Schadensbonus für Infanterieeinheiten bei Angriffen auf Kavallerie)",
+      "Berserkergang (Berserker erholen sich schneller)"
+    ],
+    "teamBonus": "Häfen kosten -15 %"
+  }
+]
