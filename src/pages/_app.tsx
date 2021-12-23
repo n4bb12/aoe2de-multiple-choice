@@ -18,7 +18,7 @@ const CustomApp: FC<AppProps> = ({ Component, pageProps }) => {
 
   return (
     <Background>
-      <div className="grid items-start w-screen min-h-screen grid-rows-[auto,1fr,auto] gap-8 p-8">
+      <div className="grid items-start w-screen min-h-screen grid-rows-[auto,1fr,auto] gap-8 p-8 leading-tight">
         <Header />
         <Main>
           <Component {...pageProps} />

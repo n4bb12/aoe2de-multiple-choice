@@ -18,7 +18,7 @@ export const NameToTeamBonusQuestion: FC<NameToTeamBonusQuestionProps> = ({
           <span className="text-blue-700">{civ.name}</span>?
         </>
       }
-      hint={<Crest src={civ.icon} alt={civ.name} size="4/4" />}
+      hint={<Crest src={civ.icon} alt={civ.name} size="large" />}
     />
   )
 }

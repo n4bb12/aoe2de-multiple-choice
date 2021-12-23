@@ -11,7 +11,7 @@ export const CrestToNameQuestion: FC<CrestToNameQuestionProps> = ({ civ }) => {
   return (
     <Question
       text={<>Welche Zivilisation hat dieses Wappen?</>}
-      hint={<Crest src={civ.icon} alt={civ.name} size="4/4" />}
+      hint={<Crest src={civ.icon} alt={civ.name} size="large" />}
     />
   )
 }

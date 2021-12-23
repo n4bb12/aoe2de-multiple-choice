@@ -10,7 +10,7 @@ export const Header: FC = () => {
         <nav className="p-4">
           <ul className="text-center">
             <li>
-              <A href={routes.home} className="hover:underline">
+              <A href={routes.home} className="hover:underline underline-offset-2 decoration-blue-700">
                 Startseite
               </A>
             </li>

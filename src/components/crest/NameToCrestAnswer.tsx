@@ -9,7 +9,7 @@ export type NameToCrestAnswerProps = {
 export const NameToCrestAnswer: FC<NameToCrestAnswerProps> = ({ civ }) => {
   return (
     <div className="mx-auto">
-      <Crest src={civ.icon} alt={civ.name} size="4/4" />
+      <Crest src={civ.icon} alt={civ.name} size="large" />
     </div>
   )
 }
