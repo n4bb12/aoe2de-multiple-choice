@@ -16,7 +16,7 @@ export const CivIcon: FC<CivIconProps> = ({ civ, size = "4/4" }) => {
       alt={civ.name}
       width={px}
       height={px}
-      className={`w-[${px}px] h-[${px}px] flex mx-auto`}
+      className="flex mx-auto"
     />
   )
 }
