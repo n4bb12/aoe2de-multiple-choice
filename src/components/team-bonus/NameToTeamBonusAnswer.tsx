@@ -1,8 +1,8 @@
 import React, { FC } from "react"
-import { Civ } from "src/data/civs"
+import { CivData } from "src/data/civs"
 
 export type NameToTeamBonusAnswerProps = {
-  civ: Civ
+  civ: CivData
 }
 
 export const NameToTeamBonusAnswer: FC<NameToTeamBonusAnswerProps> = ({

@@ -1,18 +1,13 @@
 import React, { FC } from "react"
-import { Civ } from "src/data/civs"
-import { Crest } from "../Crest"
+import { CivData } from "src/data/civs"
+import { Civ } from "../Civ"
 
 export type SpecialUnitToNameAnswerProps = {
-  civ: Civ
+  civ: CivData
 }
 
 export const SpecialUnitToNameAnswer: FC<SpecialUnitToNameAnswerProps> = ({
   civ,
 }) => {
-  return (
-    <div className="grid items-center justify-start grid-flow-col gap-2">
-      <Crest src={civ.icon} alt={civ.name} size="medium" />
-      <div>{civ.name}</div>
-    </div>
-  )
+  return <Civ civ={civ} />
 }

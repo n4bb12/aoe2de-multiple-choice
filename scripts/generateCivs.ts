@@ -1,5 +1,5 @@
 import { writeFile } from "fs/promises"
-import { Civ } from "src/data/civs"
+import { CivData } from "src/data/civs"
 import { civConfigs } from "./civConfigs"
 import { readStrings } from "./readStrings"
 
@@ -12,13 +12,13 @@ function extractSection(section: string) {
 
 export async function generateCivs() {
   const strings = await readStrings()
-  const civs: Civ[] = civConfigs
+  const civs: CivData[] = civConfigs
     .map((config) => {
       const name = strings[config.strings.name]
       const description = strings[config.strings.description]
       const sections = description.split(/\\n\\n/g)
 
-      const civ: Civ = {
+      const civ: CivData = {
         name,
         icon: "/crests/" + config.icons.crest,
         summary: sections[0].trim(),

@@ -1,20 +1,20 @@
 import data from "./civs.json"
 
-export type NameAndIcon = {
+export type NameAndIconData = {
   name: string
   icon: string
 }
 
-export type SpecialUnit = NameAndIcon
+export type SpecialUnitData = NameAndIconData
 
-export type SpecialTech = NameAndIcon
+export type SpecialTechData = NameAndIconData
 
-export type Civ = NameAndIcon & {
+export type CivData = NameAndIconData & {
   summary: string
   bonuses: string[]
   teamBonus: string
-  specialUnits: SpecialUnit[]
-  specialTechs: SpecialTech[]
+  specialUnits: SpecialUnitData[]
+  specialTechs: SpecialTechData[]
 }
 
-export const civs: Civ[] = data
+export const civs: CivData[] = data

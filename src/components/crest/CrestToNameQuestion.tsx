@@ -1,10 +1,10 @@
 import React, { FC } from "react"
-import { Civ } from "src/data/civs"
+import { CivData } from "src/data/civs"
 import { Crest } from "../Crest"
 import { Question } from "../Question"
 
 export type CrestToNameQuestionProps = {
-  civ: Civ
+  civ: CivData
 }
 
 export const CrestToNameQuestion: FC<CrestToNameQuestionProps> = ({ civ }) => {
