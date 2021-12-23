@@ -1,8 +1,9 @@
 import { GetServerSideProps } from "next"
-import React, { FC } from "react"
+import React, { FC, Fragment } from "react"
 import { Button } from "src/components/Button"
 import { routes } from "src/config"
 import { getRandomBackground } from "src/data/backgrounds"
+import { civs } from "src/data/civs"
 import { SharedPageProps } from "src/data/shared"
 
 type PageProps = SharedPageProps
@@ -29,6 +30,19 @@ const Page: FC = () => {
       <Button as="link" href={routes.specialUnits}>
         Spezialeinheiten
       </Button>
+
+      <div className="hidden">
+        {civs.map((civ, index) => (
+          <Fragment key={index}>
+            <img src={civ.icon} alt={civ.name} />
+            {civ.specialUnits.map((unit, index) => (
+              <Fragment key={index}>
+                <img src={unit.icon} alt={unit.name} />
+              </Fragment>
+            ))}
+          </Fragment>
+        ))}
+      </div>
     </div>
   )
 }
