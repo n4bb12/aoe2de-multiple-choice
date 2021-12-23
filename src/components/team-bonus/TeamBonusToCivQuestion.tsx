@@ -2,11 +2,11 @@ import React, { FC } from "react"
 import { CivData } from "src/data/civs"
 import { Question } from "../Question"
 
-export type TeamBonusToNameQuestionProps = {
+export type TeamBonusToCivQuestionProps = {
   civ: CivData
 }
 
-export const TeamBonusToNameQuestion: FC<TeamBonusToNameQuestionProps> = ({
+export const TeamBonusToCivQuestion: FC<TeamBonusToCivQuestionProps> = ({
   civ,
 }) => {
   return (

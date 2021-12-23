@@ -3,11 +3,11 @@ import { CivData } from "src/data/civs"
 import { Crest } from "../Crest"
 import { Question } from "../Question"
 
-export type NameToTeamBonusQuestionProps = {
+export type CivToTeamBonusQuestionProps = {
   civ: CivData
 }
 
-export const NameToTeamBonusQuestion: FC<NameToTeamBonusQuestionProps> = ({
+export const CivToTeamBonusQuestion: FC<CivToTeamBonusQuestionProps> = ({
   civ,
 }) => {
   return (

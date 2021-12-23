@@ -1,7 +1,7 @@
 import React, { FC, MouseEventHandler, ReactNode, useState } from "react"
 import { Button } from "./Button"
 
-const sharedClassName = "grid w-full h-full p-6 text-center rounded-xl"
+const sharedClassName = "grid w-full h-full px-6 py-3 text-center rounded-xl"
 
 const disabledClassName = sharedClassName + " border-transparent cursor-default"
 

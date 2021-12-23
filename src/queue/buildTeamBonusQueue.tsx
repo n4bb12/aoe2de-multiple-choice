@@ -1,9 +1,9 @@
 import { shuffle } from "lodash"
 import React from "react"
-import { NameToTeamBonusAnswer } from "src/components/team-bonus/NameToTeamBonusAnswer"
-import { NameToTeamBonusQuestion } from "src/components/team-bonus/NameToTeamBonusQuestion"
-import { TeamBonusToNameAnswer } from "src/components/team-bonus/TeamBonusToNameAnswer"
-import { TeamBonusToNameQuestion } from "src/components/team-bonus/TeamBonusToNameQuestion"
+import { CivToTeamBonusAnswer } from "src/components/team-bonus/CivToTeamBonusAnswer"
+import { CivToTeamBonusQuestion } from "src/components/team-bonus/CivToTeamBonusQuestion"
+import { TeamBonusToCivAnswer } from "src/components/team-bonus/TeamBonusToCivAnswer"
+import { TeamBonusToCivQuestion } from "src/components/team-bonus/TeamBonusToCivQuestion"
 import { civs } from "src/data/civs"
 import { QueueData, QueueItemData } from "./types"
 
@@ -13,15 +13,15 @@ function randomCivs() {
 
 export function buildQueueData(): QueueData {
   const bonusToName: QueueData = randomCivs().map((civ) => () => {
-    const correctAnswer = <TeamBonusToNameAnswer civ={civ} />
+    const correctAnswer = <TeamBonusToCivAnswer civ={civ} />
 
     const incorrectAnswers = randomCivs()
       .filter((otherCiv) => otherCiv.name !== civ.name)
       .slice(0, 3)
-      .map((civ) => <TeamBonusToNameAnswer key={civ.name} civ={civ} />)
+      .map((civ) => <TeamBonusToCivAnswer key={civ.name} civ={civ} />)
 
     const data: QueueItemData = {
-      question: <TeamBonusToNameQuestion civ={civ} />,
+      question: <TeamBonusToCivQuestion civ={civ} />,
       correctAnswer,
       answers: shuffle([correctAnswer, ...incorrectAnswers]),
     }
@@ -29,16 +29,16 @@ export function buildQueueData(): QueueData {
     return data
   })
 
-  const nameToTeamBonus: QueueData = randomCivs().map((civ) => () => {
-    const correctAnswer = <NameToTeamBonusAnswer civ={civ} />
+  const civToTeamBonus: QueueData = randomCivs().map((civ) => () => {
+    const correctAnswer = <CivToTeamBonusAnswer civ={civ} />
 
     const incorrectAnswers = randomCivs()
       .filter((otherCiv) => otherCiv.name !== civ.name)
       .slice(0, 3)
-      .map((civ) => <NameToTeamBonusAnswer key={civ.name} civ={civ} />)
+      .map((civ) => <CivToTeamBonusAnswer key={civ.name} civ={civ} />)
 
     const data: QueueItemData = {
-      question: <NameToTeamBonusQuestion civ={civ} />,
+      question: <CivToTeamBonusQuestion civ={civ} />,
       correctAnswer,
       answers: shuffle([correctAnswer, ...incorrectAnswers]),
     }
@@ -46,5 +46,5 @@ export function buildQueueData(): QueueData {
     return data
   })
 
-  return shuffle([...bonusToName, ...nameToTeamBonus])
+  return shuffle([...bonusToName, ...civToTeamBonus])
 }
