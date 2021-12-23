@@ -1,5 +1,6 @@
 import React, { FC } from "react"
 import { SpecialUnit } from "src/data/civs"
+import { Question } from "../Question"
 import { Unit } from "../Unit"
 
 export type SpecialUnitToNameQuestionProps = {
@@ -10,13 +11,9 @@ export const SpecialUnitToNameQuestion: FC<SpecialUnitToNameQuestionProps> = ({
   specialUnit,
 }) => {
   return (
-    <div className="grid gap-2 font-bold text-center justify-items-center">
-      <div className="text-xl">
-        Welche Zivilisation hat diese Spezialeinheit?
-      </div>
-      <div className="max-w-xs text-blue-700">
-        <Unit unit={specialUnit} />
-      </div>
-    </div>
+    <Question
+      text={<>Welche Zivilisation hat diese Spezialeinheit?</>}
+      hint={<Unit unit={specialUnit} />}
+    />
   )
 }

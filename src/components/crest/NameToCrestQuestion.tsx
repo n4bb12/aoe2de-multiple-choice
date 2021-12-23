@@ -1,5 +1,6 @@
 import React, { FC } from "react"
 import { Civ } from "src/data/civs"
+import { Question } from "../Question"
 
 export type NameToCrestQuestionProps = {
   civ: Civ
@@ -7,11 +8,14 @@ export type NameToCrestQuestionProps = {
 
 export const NameToCrestQuestion: FC<NameToCrestQuestionProps> = ({ civ }) => {
   return (
-    <div className="grid text-center justify-items-center">
-      <div className="text-xl font-bold">
-        Welches Wappen haben die{" "}
-        <span className="text-blue-700">{civ.name}</span>?
-      </div>
-    </div>
+    <Question
+      text={
+        <>
+          Welches Wappen haben die{" "}
+          <span className="text-blue-700">{civ.name}</span>?
+        </>
+      }
+      hint={<></>}
+    />
   )
 }
