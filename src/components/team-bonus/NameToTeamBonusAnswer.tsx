@@ -8,5 +8,5 @@ export type NameToTeamBonusAnswerProps = {
 export const NameToTeamBonusAnswer: FC<NameToTeamBonusAnswerProps> = ({
   civ,
 }) => {
-  return <div>{civ.teamBonus}</div>
+  return <div className="grid items-center h-40">{civ.teamBonus}</div>
 }

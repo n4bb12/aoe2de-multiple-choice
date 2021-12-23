@@ -11,12 +11,6 @@ export const Icon: FC<IconProps> = ({ src, alt, size = "4/4" }) => {
     size === "3/4" ? (104 * 3) / 4 : size === "2/4" ? (104 * 2) / 4 : 104
 
   return (
-    <img
-      src={src}
-      alt={alt}
-      width={px}
-      height={px}
-      className="flex text-sm"
-    />
+    <img src={src} alt={alt} width={px} height={px} className="flex text-sm" />
   )
 }
