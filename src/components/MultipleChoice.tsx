@@ -56,7 +56,7 @@ export const MultipleChoice: FC<MultipleChoiceProps> = ({
     <div className="grid gap-8">
       <div>{question}</div>
 
-      <div className="grid gap-2 md:grid-cols-2">
+      <div className="grid items-stretch gap-2 md:grid-cols-2">
         {answers.map((answer, index) => {
           return (
             <div key={index}>

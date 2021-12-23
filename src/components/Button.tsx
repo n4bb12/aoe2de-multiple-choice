@@ -26,7 +26,7 @@ export const Button: FC<ButtonProps> = ({
       : "bg-gray-300  hover:bg-gray-400 hover:text-white"
 
   const className =
-    "block w-full px-4 py-2 text-center rounded-xl " + variantClassName
+    "block w-full h-full px-4 py-2 text-center rounded-xl " + variantClassName
 
   if (as === "link") {
     return <A {...(props as AsLinkProps)} className={className} />

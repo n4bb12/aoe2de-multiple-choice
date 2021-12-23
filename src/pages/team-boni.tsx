@@ -3,7 +3,7 @@ import React, { FC } from "react"
 import { Queue } from "src/components/Queue"
 import { getRandomBackground } from "src/data/backgrounds"
 import { SharedPageProps } from "src/data/shared"
-import { buildCivQueue } from "src/queue/buildQueueData"
+import { buildQueueData } from "src/queue/buildTeamBonusQueue"
 
 type PageProps = SharedPageProps
 
@@ -16,7 +16,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async (context) => {
 }
 
 const Page: FC = () => {
-  return <Queue buildQueueData={buildCivQueue} />
+  return <Queue buildQueueData={buildQueueData} />
 }
 
 export default Page
