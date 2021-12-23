@@ -7,5 +7,5 @@ export type NameToCrestAnswerProps = {
 }
 
 export const NameToCrestAnswer: FC<NameToCrestAnswerProps> = ({ civ }) => {
-  return <Icon src={civ.icon} alt={civ.name} />
+  return <Icon src={civ.icon} alt={civ.name} size="4/4" />
 }

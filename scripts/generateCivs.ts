@@ -20,11 +20,19 @@ export async function generateCivs() {
 
       const civ: Civ = {
         name,
-        icon: "/crests/" + config.id + ".png",
+        icon: "/crests/" + config.icons.crest,
         summary: sections[0].trim(),
         bonuses: extractSection(sections[1]),
-        specialUnits: extractSection(sections[2]),
-        specialTechs: extractSection(sections[3]),
+        specialUnits: extractSection(sections[2])[0]
+          .split(", ")
+          .map((name, index) => ({
+            name,
+            icon: "/units/" + config.icons.specialUnits[index] || "",
+          })),
+        specialTechs: extractSection(sections[3]).map((name, index) => ({
+          name,
+          icon: "/units/" + config.icons.specialTechs[index] || "",
+        })),
         teamBonus: extractSection(sections[4])[0],
       }
       return civ

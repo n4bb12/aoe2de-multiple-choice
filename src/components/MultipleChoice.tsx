@@ -2,19 +2,19 @@ import React, { FC, MouseEventHandler, ReactNode, useState } from "react"
 import { Button } from "./Button"
 
 const CorrectAnswer: FC = ({ children }) => (
-  <div className="w-full px-4 py-2 text-center text-white bg-green-700 rounded cursor-default">
+  <div className="w-full px-4 py-2 text-center text-white bg-green-700 cursor-default rounded-xl">
     {children}
   </div>
 )
 
 const IncorrectAnswer: FC = ({ children }) => (
-  <div className="w-full px-4 py-2 text-center text-white bg-red-700 rounded cursor-default">
+  <div className="w-full px-4 py-2 text-center text-white bg-red-700 cursor-default rounded-xl">
     {children}
   </div>
 )
 
 const NeutralAnswer: FC = ({ children }) => (
-  <div className="w-full px-4 py-2 text-center bg-gray-300 rounded cursor-default">
+  <div className="w-full px-4 py-2 text-center bg-gray-300 cursor-default rounded-xl">
     {children}
   </div>
 )

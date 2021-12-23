@@ -1,5 +1,6 @@
 export const routes = {
   home: "/",
-  civCrests: "/wappen",
-  civTeamBonuses: "/team-boni",
+  crests: "/wappen",
+  teamBonuses: "/team-boni",
+  specialUnits: "/spezialeinheiten",
 } as const

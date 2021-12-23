@@ -9,11 +9,11 @@ export const TeamBonusToNameQuestion: FC<TeamBonusToNameQuestionProps> = ({
   civ,
 }) => {
   return (
-    <div className="grid text-center justify-items-center">
-      <div className="mb-2 text-xl font-bold">
+    <div className="grid gap-2 font-bold text-center justify-items-center">
+      <div className="text-xl">
         Welche Zivilisation hat diesen Team-Bonus?
       </div>
-      <div className="font-bold text-blue-700">{civ.teamBonus}</div>
+      <div className="max-w-xs text-blue-700">{civ.teamBonus}</div>
     </div>
   )
 }
