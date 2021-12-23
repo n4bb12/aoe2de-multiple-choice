@@ -6,7 +6,7 @@ export const Background: FC = ({ children }) => {
 
   return (
     <div
-      className="bg-top bg-no-repeat bg-cover"
+      className="bg-gray-400 bg-top bg-no-repeat bg-cover"
       style={{ backgroundImage: `url(${background})` }}
     >
       {children}
