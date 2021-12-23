@@ -11,6 +11,6 @@ export const Unit: FC<UnitProps> = ({ unit }) => (
     <div className="overflow-hidden bg-black rounded-xl">
       <Icon src={unit.icon} alt={unit.name} size="medium" />
     </div>
-    <div>{unit.name}</div>
+    <div>{unit.name.replace(/ \(.*/, "")}</div>
   </div>
 )

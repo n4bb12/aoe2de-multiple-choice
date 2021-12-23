@@ -8,7 +8,7 @@ export type QuestionProps = {
 export const Question: FC<QuestionProps> = ({ text, hint }) => {
   return (
     <div className="grid gap-2 font-bold text-center justify-items-center">
-      <div className="text-xl">{text}</div>
+      <div className="text-xl leading-tight">{text}</div>
       <div className="max-w-xs text-blue-700">{hint}</div>
     </div>
   )

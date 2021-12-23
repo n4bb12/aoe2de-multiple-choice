@@ -7,7 +7,9 @@ import { SharedPageProps } from "src/data/shared"
 
 type PageProps = SharedPageProps
 
-export const getServerSideProps: GetServerSideProps<PageProps> = async (context) => {
+export const getServerSideProps: GetServerSideProps<PageProps> = async (
+  context,
+) => {
   return {
     props: {
       background: getRandomBackground(),

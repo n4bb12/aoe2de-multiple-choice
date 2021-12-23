@@ -11,7 +11,7 @@ export const SpecialUnitToNameAnswer: FC<SpecialUnitToNameAnswerProps> = ({
 }) => {
   return (
     <div className="grid items-center justify-start grid-flow-col gap-2">
-      <Crest src={civ.icon} alt={civ.name} size="small" />
+      <Crest src={civ.icon} alt={civ.name} size="medium" />
       <div>{civ.name}</div>
     </div>
   )
