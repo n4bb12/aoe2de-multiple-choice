@@ -5,6 +5,7 @@ import { NameToSpecialUnitQuestion } from "src/components/special-units/NameToSp
 import { SpecialUnitToNameAnswer } from "src/components/special-units/SpecialUnitToNameAnswer"
 import { SpecialUnitToNameQuestion } from "src/components/special-units/SpecialUnitToNameQuestion"
 import { civs } from "src/data/civs"
+import { getRandomArrayItem } from "src/utils/getRandomArrayItem"
 import { QueueData, QueueItemData } from "./types"
 
 function randomCivs() {
@@ -12,44 +13,54 @@ function randomCivs() {
 }
 
 export function buildQueueData(): QueueData {
-  const bonusToName = randomCivs().map((civ) => () => {
-    const correctAnswer = <SpecialUnitToNameAnswer civ={civ} />
-    const incorrectAnswers = randomCivs()
-      .filter((other) => other.name !== civ.name)
-      .slice(0, 3)
-      .map((civ) => <SpecialUnitToNameAnswer key={civ.name} civ={civ} />)
+  const bonusToName: QueueData = randomCivs()
+    .map((civ) => {
+      return civ.specialUnits.map((specialUnit) => () => {
+        const correctAnswer = <SpecialUnitToNameAnswer civ={civ} />
 
-    const data: QueueItemData = {
-      question: <SpecialUnitToNameQuestion specialUnit={civ.specialUnits[0]} />,
-      correctAnswer,
-      answers: shuffle([correctAnswer, ...incorrectAnswers]),
-    }
+        const incorrectAnswers = randomCivs()
+          .filter((otherCiv) => otherCiv.name !== civ.name)
+          .slice(0, 3)
+          .map((civ) => <SpecialUnitToNameAnswer key={civ.name} civ={civ} />)
 
-    return data
-  })
+        const data: QueueItemData = {
+          question: <SpecialUnitToNameQuestion specialUnit={specialUnit} />,
+          correctAnswer,
+          answers: shuffle([correctAnswer, ...incorrectAnswers]),
+        }
 
-  const nameToSpecialUnit = randomCivs().map((civ) => () => {
-    const correctAnswer = (
-      <NameToSpecialUnitAnswer specialUnit={civ.specialUnits[0]} />
-    )
-    const incorrectAnswers = randomCivs()
-      .filter((other) => other.name !== civ.name)
-      .slice(0, 3)
-      .map((civ) => (
-        <NameToSpecialUnitAnswer
-          key={civ.name}
-          specialUnit={civ.specialUnits[0]}
-        />
-      ))
+        return data
+      })
+    })
+    .flat()
 
-    const data: QueueItemData = {
-      question: <NameToSpecialUnitQuestion civ={civ} />,
-      correctAnswer,
-      answers: shuffle([correctAnswer, ...incorrectAnswers]),
-    }
+  const nameToSpecialUnit: QueueData = randomCivs()
+    .map((civ) => {
+      return civ.specialUnits.map((specialUnit) => () => {
+        const correctAnswer = (
+          <NameToSpecialUnitAnswer specialUnit={specialUnit} />
+        )
 
-    return data
-  })
+        const incorrectAnswers = randomCivs()
+          .filter((otherCiv) => otherCiv.name !== civ.name)
+          .slice(0, 3)
+          .map((otherCiv) => (
+            <NameToSpecialUnitAnswer
+              key={otherCiv.name}
+              specialUnit={getRandomArrayItem(otherCiv.specialUnits)}
+            />
+          ))
+
+        const data: QueueItemData = {
+          question: <NameToSpecialUnitQuestion civ={civ} />,
+          correctAnswer,
+          answers: shuffle([correctAnswer, ...incorrectAnswers]),
+        }
+
+        return data
+      })
+    })
+    .flat()
 
   return shuffle([...bonusToName, ...nameToSpecialUnit])
 }

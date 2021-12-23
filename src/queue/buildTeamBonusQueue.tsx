@@ -12,10 +12,11 @@ function randomCivs() {
 }
 
 export function buildQueueData(): QueueData {
-  const bonusToName = randomCivs().map((civ) => () => {
+  const bonusToName: QueueData = randomCivs().map((civ) => () => {
     const correctAnswer = <TeamBonusToNameAnswer civ={civ} />
+
     const incorrectAnswers = randomCivs()
-      .filter((other) => other.name !== civ.name)
+      .filter((otherCiv) => otherCiv.name !== civ.name)
       .slice(0, 3)
       .map((civ) => <TeamBonusToNameAnswer key={civ.name} civ={civ} />)
 
@@ -28,10 +29,11 @@ export function buildQueueData(): QueueData {
     return data
   })
 
-  const nameToTeamBonus = randomCivs().map((civ) => () => {
+  const nameToTeamBonus: QueueData = randomCivs().map((civ) => () => {
     const correctAnswer = <NameToTeamBonusAnswer civ={civ} />
+
     const incorrectAnswers = randomCivs()
-      .filter((other) => other.name !== civ.name)
+      .filter((otherCiv) => otherCiv.name !== civ.name)
       .slice(0, 3)
       .map((civ) => <NameToTeamBonusAnswer key={civ.name} civ={civ} />)
 

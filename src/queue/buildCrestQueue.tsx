@@ -12,10 +12,11 @@ function randomCivs() {
 }
 
 export function buildQueueData(): QueueData {
-  const crestToName = randomCivs().map((civ) => () => {
+  const crestToName: QueueData = randomCivs().map((civ) => () => {
     const correctAnswer = <CrestToNameAnswer civ={civ} />
+
     const incorrectAnswers = randomCivs()
-      .filter((other) => other.name !== civ.name)
+      .filter((otherCiv) => otherCiv.name !== civ.name)
       .slice(0, 3)
       .map((civ) => <CrestToNameAnswer key={civ.name} civ={civ} />)
 
@@ -28,12 +29,15 @@ export function buildQueueData(): QueueData {
     return data
   })
 
-  const nameToCrest = randomCivs().map((civ) => () => {
+  const nameToCrest: QueueData = randomCivs().map((civ) => () => {
     const correctAnswer = <NameToCrestAnswer civ={civ} />
+
     const incorrectAnswers = randomCivs()
-      .filter((other) => other.name !== civ.name)
+      .filter((otherCiv) => otherCiv.name !== civ.name)
       .slice(0, 3)
-      .map((civ) => <NameToCrestAnswer key={civ.name} civ={civ} />)
+      .map((otherCiv) => (
+        <NameToCrestAnswer key={otherCiv.name} civ={otherCiv} />
+      ))
 
     const data: QueueItemData = {
       question: <NameToCrestQuestion civ={civ} />,
