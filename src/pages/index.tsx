@@ -1,4 +1,4 @@
-import { GetStaticProps } from "next"
+import { GetServerSideProps } from "next"
 import React, { FC } from "react"
 import { Button } from "src/components/Button"
 import { routes } from "src/config"
@@ -7,7 +7,7 @@ import { SharedPageProps } from "src/data/shared"
 
 type PageProps = SharedPageProps
 
-export const getStaticProps: GetStaticProps<PageProps> = async (context) => {
+export const getServerSideProps: GetServerSideProps<PageProps> = async (context) => {
   return {
     props: {
       background: getRandomBackground(),
