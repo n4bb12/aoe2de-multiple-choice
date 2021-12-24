@@ -15,11 +15,12 @@ function sizeToPx(size: IconProps["size"]) {
 }
 
 export const Icon: FC<IconProps> = ({ src, alt, size = "large" }) => {
+  const hashedSrc = require("../../assets" + src).default.src
   const px = sizeToPx(size)
 
   return (
     <img
-      src={src}
+      src={hashedSrc}
       alt={alt}
       width={px}
       height={px}

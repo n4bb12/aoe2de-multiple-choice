@@ -6,7 +6,9 @@ export const Background: FC = ({ children }) => {
   const [background, setBackground] = useState("")
 
   useEffect(() => {
-    setBackground(getRandomArrayItem(backgrounds))
+    const src = getRandomArrayItem(backgrounds)
+    const hashedSrc = require("../../assets" + src).default.src
+    setBackground(hashedSrc)
   }, [])
 
   return (
