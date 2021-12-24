@@ -1,4 +1,4 @@
-import { shuffle } from "lodash"
+import shuffle from "lodash/shuffle"
 import React from "react"
 import { Civ } from "src/components/Civ"
 import { CivToTeamBonusAnswer } from "src/components/team-bonus/CivToTeamBonusAnswer"
@@ -12,7 +12,7 @@ function randomCivs() {
 }
 
 export function buildQueueData(): QueueData {
-  const bonusToName: QueueData = randomCivs().map((civ) => () => {
+  const bonusToCiv: QueueData = randomCivs().map((civ) => () => {
     const correctAnswer = <Civ civ={civ} />
 
     const incorrectAnswers = randomCivs()
@@ -46,5 +46,5 @@ export function buildQueueData(): QueueData {
     return data
   })
 
-  return shuffle([...bonusToName, ...civToTeamBonus])
+  return shuffle([...bonusToCiv, ...civToTeamBonus])
 }

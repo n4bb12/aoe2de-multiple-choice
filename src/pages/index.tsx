@@ -7,6 +7,9 @@ const Page: FC = () => {
       <Button as="link" href="/wappen">
         Wappen
       </Button>
+      <Button as="link" href="/kurbeschreibungen">
+        Kurbeschreibungen
+      </Button>
       <Button as="link" href="/spezialeinheiten">
         Spezialeinheiten
       </Button>

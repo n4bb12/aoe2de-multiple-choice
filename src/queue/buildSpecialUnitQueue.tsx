@@ -1,9 +1,9 @@
-import { shuffle } from "lodash"
+import shuffle from "lodash/shuffle"
 import React from "react"
 import { Civ } from "src/components/Civ"
 import { NameToSpecialUnitAnswer } from "src/components/special-units/NameToSpecialUnitAnswer"
 import { NameToSpecialUnitQuestion } from "src/components/special-units/NameToSpecialUnitQuestion"
-import { SpecialUnitToNameQuestion } from "src/components/special-units/SpecialUnitToNameQuestion"
+import { SpecialUnitToCivQuestion } from "src/components/special-units/SpecialUnitToCivQuestion"
 import { civs } from "src/data/civs"
 import { getRandomArrayItem } from "src/utils/getRandomArrayItem"
 import { QueueData, QueueItemData } from "./types"
@@ -13,7 +13,7 @@ function randomCivs() {
 }
 
 export function buildQueueData(): QueueData {
-  const bonusToName: QueueData = randomCivs()
+  const bonusToCiv: QueueData = randomCivs()
     .map((civ) => {
       return civ.specialUnits.map((specialUnit) => () => {
         const correctAnswer = <Civ civ={civ} />
@@ -24,7 +24,7 @@ export function buildQueueData(): QueueData {
           .map((civ) => <Civ key={civ.name} civ={civ} />)
 
         const data: QueueItemData = {
-          question: <SpecialUnitToNameQuestion specialUnit={specialUnit} />,
+          question: <SpecialUnitToCivQuestion specialUnit={specialUnit} />,
           correctAnswer,
           answers: shuffle([correctAnswer, ...incorrectAnswers]),
         }
@@ -62,5 +62,5 @@ export function buildQueueData(): QueueData {
     })
     .flat()
 
-  return shuffle([...bonusToName, ...nameToSpecialUnit])
+  return shuffle([...bonusToCiv, ...nameToSpecialUnit])
 }
