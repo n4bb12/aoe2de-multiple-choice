@@ -1,8 +1,8 @@
 import { shuffle } from "lodash"
 import React from "react"
+import { Civ } from "src/components/Civ"
 import { CivToTeamBonusAnswer } from "src/components/team-bonus/CivToTeamBonusAnswer"
 import { CivToTeamBonusQuestion } from "src/components/team-bonus/CivToTeamBonusQuestion"
-import { TeamBonusToCivAnswer } from "src/components/team-bonus/TeamBonusToCivAnswer"
 import { TeamBonusToCivQuestion } from "src/components/team-bonus/TeamBonusToCivQuestion"
 import { civs } from "src/data/civs"
 import { QueueData, QueueItemData } from "./types"
@@ -13,12 +13,12 @@ function randomCivs() {
 
 export function buildQueueData(): QueueData {
   const bonusToName: QueueData = randomCivs().map((civ) => () => {
-    const correctAnswer = <TeamBonusToCivAnswer civ={civ} />
+    const correctAnswer = <Civ civ={civ} />
 
     const incorrectAnswers = randomCivs()
       .filter((otherCiv) => otherCiv.name !== civ.name)
       .slice(0, 3)
-      .map((civ) => <TeamBonusToCivAnswer key={civ.name} civ={civ} />)
+      .map((civ) => <Civ key={civ.name} civ={civ} />)
 
     const data: QueueItemData = {
       question: <TeamBonusToCivQuestion civ={civ} />,
