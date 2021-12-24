@@ -2,8 +2,10 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "isolatedModules": false,
+    "noImplicitAny": false,
     "lib": ["ES2021"],
     "module": "CommonJS",
     "target": "ES2021"
-  }
+  },
+  "include": ["**/*.ts"]
 }

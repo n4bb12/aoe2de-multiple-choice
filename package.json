@@ -9,7 +9,8 @@
     "typecheck": "tsc --noEmit",
     "format": "prettier --write .",
     "fix": "yarn typecheck && yarn lint --fix && yarn format",
-    "generate": "nodemon --ext ts --watch scripts --exec yarn ts-node scripts/generateData.ts"
+    "script": "nodemon --ext ts --watch scripts --exec yarn ts-node",
+    "data": "yarn script scripts/data/index.ts"
   },
   "dependencies": {
     "@hookstate/core": "^3.0.13",
