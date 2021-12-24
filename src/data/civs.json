@@ -16,11 +16,11 @@
     "specialTechs": [
       {
         "name": "Königliche Erben (Shotelkrieger werden fast augenblicklich erschaffen)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Torsionsgeschütze (Explosionsradius von Belagerungseinheiten erhöht)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Türme, Außenposten und Steinmauern +3 Sichtweite"
@@ -43,11 +43,11 @@
     "specialTechs": [
       {
         "name": "Speerschleuder (Plänkler +1 Angriffsstärke, +1 Reichweite)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Blumenkriege (+4 Angriffsstärke für Infantrie)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Reliquien erzeugen +33 % Gold"
@@ -73,11 +73,11 @@
     "specialTechs": [
       {
         "name": "Kasbah (Team-Burgen arbeiten +25 % schneller)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Maghreb-Kamele (Kameleinheiten regenerieren sich)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Ginete ab Ritterzeit in Schießanlage verfügbar"
@@ -99,11 +99,11 @@
     "specialTechs": [
       {
         "name": "Howdah (Elefantenreiter +1/+2 Panzerung)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Manipur-Kavallerie (Kavallerie +5 Angriff gg. Bogenschützen)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Reliquien zu Spielbeginn auf der Karte sichtbar"
@@ -131,11 +131,11 @@
     "specialTechs": [
       {
         "name": "Wagenburg (Schießpulvereinheiten bewegen sich um 15 % schneller)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Hussitenreformen (Mönche und Kloster-Technologien kosten Nahrung statt Gold)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Märkte arbeiten 80 % schneller"
@@ -157,15 +157,15 @@
     "specialTechs": [
       {
         "name": "Freisassen (+1 Reichweite für einfache Schützen",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "+2 Angriffsstärke für Türme)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Warwolf (Triböcke verursachen Explosionsschaden)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Schießanlagen arbeiten um 20 % schneller"
@@ -188,11 +188,11 @@
     "specialTechs": [
       {
         "name": "Steigbügel (+33 % Angriffsgeschwindigkeit für Kavallerie)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Bagaine (+5 Nahkampfrüstung für Milizsoldatenzweig)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Schmieden arbeiten 80 % schneller"
@@ -219,11 +219,11 @@
     "specialTechs": [
       {
         "name": "Burgundische Weinberge (Bauern erzeugen neben Nahrung langsam Gold)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Flämische Revolution (entwickelt alle Dorfbewohner zu flämischen Milizsoldaten weiter; Erschaffung von Flämischen Milizsoldaten im Dorfzentrum)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Reliquien erzeugen Gold und Nahrung"
@@ -247,11 +247,11 @@
     "specialTechs": [
       {
         "name": "Griechisches Feuer (Feuerschiffe +1 Reichweite)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Logistik (Kataphrakte verursachen Schaden durch Niederreiten)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Mönche heilen +100 % schneller"
@@ -275,11 +275,11 @@
     "specialTechs": [
       {
         "name": "Große Mauer (Wälle und Türme +30 % LP)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Raketentechnik (+2 Angriffsstärke für Chu Ko Nu, +4 für Skorpione)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Felder +10 % Nahrung"
@@ -302,11 +302,11 @@
     "specialTechs": [
       {
         "name": "Bartaxt (+1 Reichweite für Axtwerfer)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Rittertum (Ställe 40 % schneller)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Ritter haben +2 Sichtweite"
@@ -330,11 +330,11 @@
     "specialTechs": [
       {
         "name": "Anarchie (Huskarls entstehen in Kasernen)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Mobilität (Kasernen 100 % schneller)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Kasernen 20 % schneller"
@@ -356,15 +356,15 @@
     "specialTechs": [
       {
         "name": "Marodeure (Tarkane im Stall erschaffen)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Atheismus (+100 Jahre für Siege durch Reliquien/Weltwunder",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Gegnerische Reliquien erzeugen -50 % Rohstoffe)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Ställe 20 % schneller"
@@ -390,11 +390,11 @@
     "specialTechs": [
       {
         "name": "Sultane (Alle Goldeinnahmen 10 % schneller)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Shatagni (Handrohrschützen haben +1 Reichweite)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Kameleinheiten +4 Angriffsstärke gg. Gebäude"
@@ -421,11 +421,11 @@
     "specialTechs": [
       {
         "name": "Andenschleuder (Plänkler und Schleuderer haben keine Mindestreichweite)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Stoffschilde (Kamayuks, Schleuderer, Adlerkrieger +1/+2 (Durchschlags-)Rüstung)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Felderbau +100 % schneller"
@@ -452,11 +452,11 @@
     "specialTechs": [
       {
         "name": "Pavese (Einfache Bogenschützen und Condottieri +1 normale/+1 Durchschlagspanzerung)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Seidenstraße (Handelseinheiten kosten -50 %)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Condottiere in der Imperialzeit in Kaserne verfügbar"
@@ -478,11 +478,11 @@
     "specialTechs": [
       {
         "name": "Yasama (Türme schießen mehr Pfeile)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Kataparuto (Triböcke feuern/packen schneller)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Galeeren +50 % Sichtweite"
@@ -505,11 +505,11 @@
     "specialTechs": [
       {
         "name": "Festung (Burgen und Türme schießen 25 % schneller)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Keltischer Zorn (Belagerungseinheiten haben +40 % LP)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Belagerungswerkstatt arbeitet 20 % schneller"
@@ -532,11 +532,11 @@
     "specialTechs": [
       {
         "name": "Stoßzahnschwerter (Elefantenreiter +3 Angriff)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Doppelarmbrust (Ballistenelefanten und Skorpione schießen zwei Projektile)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Skorpione +1 Reichweite"
@@ -564,11 +564,11 @@
     "specialTechs": [
       {
         "name": "Eupseong (Beobachtungs-, Wach- und Haupttürme +2 Reichweite)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Shinkichon (+1 Reichweite für Mangen)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Min. Reichweite von Mangen verringert"
@@ -591,11 +591,11 @@
     "specialTechs": [
       {
         "name": "Steppentierhaltung (Leichte Kavallerie, Steppenreiter und berittene Bogenschützen werden 100 % schneller erschaffen)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Kumanische Söldner (Teammitglieder können 10 kostenlose Elite-Kiptschak in der Burg erschaffen)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "+33 % LP für Palisadenwälle"
@@ -621,11 +621,11 @@
     "specialTechs": [
       {
         "name": "Hügelfestungen (+3 Reichweite für Dorfzentren)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Turmschilde (+2 Durchschlagsrüstung für Speerkämpfer und Plänkler)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Klöster arbeiten um 20 % schneller"
@@ -647,11 +647,11 @@
     "specialTechs": [
       {
         "name": "Thalassokratie (Entwickelt Häfen zu Kriegshäfen, die Pfeile verschießen)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Zwangsrekrutierung (Einheiten der Milizsoldatenlinie kosten zusätzliche Nahrung statt Gold)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Häfen +100 % Sichtweite"
@@ -673,11 +673,11 @@
     "specialTechs": [
       {
         "name": "Tigui (Nicht besetzte Dorfzentren schießen Pfeile)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Farimba (Kavallerie +5 Angriffsstärke)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Universitäten entwickeln +80 % schneller"
@@ -699,11 +699,11 @@
     "specialTechs": [
       {
         "name": "Hul’che-Speerschleuderer (Plänkler schleudern zweiten Speer)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "El Dorado (Adlerkrieger haben +40 LP)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Wälle kosten -50 %"
@@ -725,11 +725,11 @@
     "specialTechs": [
       {
         "name": "Nomaden (Zerstörte Häuser verringern Wohnraum nicht)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Drill (Belagerungseinheiten bewegen sich 50 % schneller)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "+2 Sichtweite für Berittene Späher, Leichte Kavallerie und Husaren"
@@ -750,11 +750,11 @@
     "specialTechs": [
       {
         "name": "Kamandaran (Einheiten der Bogenschützenlinie kosten Holz statt Gold)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Mahouts (Kriegselefanten 30 % schneller)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Ritter +2 Angriffsstärke gegen Schützen"
@@ -780,11 +780,11 @@
     "specialTechs": [
       {
         "name": "Szlachta-Privilegien (Ritter kosten -60 % Gold)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Lechisches Vermächtnis (Leichte Kavallerie verursacht Trampelschaden)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Berittener Späher, Leichte Kavallerie, Husar +1 Angriff gg. Bogenschützen"
@@ -811,11 +811,11 @@
     "specialTechs": [
       {
         "name": "Karacke (Schiffe +1/+1 Rüstung)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Arkebuse (Schießpulvereinheiten treffsicherer)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Sichtweite wird ab dem Dunklen Zeitalter geteilt"
@@ -840,11 +840,11 @@
     "specialTechs": [
       {
         "name": "Madrasa (getötete Mönche erstatten 33 % ihrer Kosten zurück)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Fanatismus (+20 LP für Kameleinheiten)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Einfache Bogenschützen haben +2 Angriffsstärke gegen Gebäude"
@@ -868,11 +868,11 @@
     "specialTechs": [
       {
         "name": "Erster Kreuzzug (jedes Dorfzentrum – maximal 5 – bringt einmalig 7 Serjeants hervor; Einheiten sind schwerer zu bekehren)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Kettenhemd (Ritter +1/+2 Panzerung)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Transportschiffe erhalten +5 Sichtweite und kosten -50 %"
@@ -894,11 +894,11 @@
     "specialTechs": [
       {
         "name": "Orthodoxie (+3/+3 Rüstung für Mönche)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Druschina (Infanterie beschädigt angrenzende Einheiten)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Militärgebäude bieten +5 Wohnraum"
@@ -925,11 +925,11 @@
     "specialTechs": [
       {
         "name": "Inquisition (Höhere Bekehrungsrate f. Mönche)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Überlegenheit (Dorfbewohner stärker im Gefecht)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Handel erzeugt +25 % Gold"
@@ -956,11 +956,11 @@
     "specialTechs": [
       {
         "name": "Seidenrüstung (Leichte Kavallerie, Steppenreiter und Berittene Bogenschützen erhalten +1/+1 (Durchschlags-)Rüstung)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Belagerungskunst der Timuriden (+2 Reichweite für Triböcke, ermöglicht Brandkamele)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "+2 Sichtweite für Berittene Bogenschützen"
@@ -985,15 +985,15 @@
     "specialTechs": [
       {
         "name": "Panzerung (Nahkampfrüstung für Belagerungswaffen)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Zinnen (+3 Reichw. für Burgen",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "einquart. Infanterie verschießt Pfeile)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Einheiten widerstehen Bekehrung"
@@ -1016,11 +1016,11 @@
     "specialTechs": [
       {
         "name": "Sipahi (Ber. Bogenschützen +20 LP)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Artillerie (Kanonentürme, Belagerungskan. und Kanonenschiffe +2 Reichw.)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Schießpulvereinheiten 25 % schneller erschaffen"
@@ -1042,11 +1042,11 @@
     "specialTechs": [
       {
         "name": "Corvinianische Armee (Ung. Husare kosten kein Gold)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Reflexbogen (Beritt. Bogenschützen +1 Reichw., +1 Angriffsstärke)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Bogenschützen +2 Sichtweite"
@@ -1073,11 +1073,11 @@
     "specialTechs": [
       {
         "name": "Chatras (Elefantenreiter +100 LP)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Papiergeld (jedes Teammitglied erhält 500 Gold)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Entwicklung zum Imperialen Plänkler in der Imperialzeit möglich"
@@ -1103,11 +1103,11 @@
     "specialTechs": [
       {
         "name": "Stammesführer (Schadensbonus für Infanterieeinheiten bei Angriffen auf Kavallerie)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       },
       {
         "name": "Berserkergang (Berserker erholen sich schneller)",
-        "icon": "/units/undefined"
+        "icon": "/techs/undefined"
       }
     ],
     "teamBonus": "Häfen kosten -15 %"

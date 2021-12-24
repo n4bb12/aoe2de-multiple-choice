@@ -31,7 +31,7 @@ export async function generateCivs() {
           })),
         specialTechs: extractSection(sections[3]).map((name, index) => ({
           name,
-          icon: "/units/" + config.icons.specialTechs[index] || "",
+          icon: "/techs/" + config.icons.specialTechs[index] || "",
         })),
         teamBonus: extractSection(sections[4])[0],
       }
