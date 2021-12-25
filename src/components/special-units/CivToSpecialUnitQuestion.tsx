@@ -3,11 +3,11 @@ import { CivData } from "src/data/civs"
 import { Crest } from "../Crest"
 import { Question } from "../Question"
 
-export type NameToSpecialUnitQuestionProps = {
+export type CivToSpecialUnitQuestionProps = {
   civ: CivData
 }
 
-export const NameToSpecialUnitQuestion: FC<NameToSpecialUnitQuestionProps> = ({
+export const CivToSpecialUnitQuestion: FC<CivToSpecialUnitQuestionProps> = ({
   civ,
 }) => {
   return (
