@@ -1,0 +1,9 @@
+import React, { FC } from "react"
+
+export type CivToBonusAnswerProps = {
+  bonus: string
+}
+
+export const CivToBonusAnswer: FC<CivToBonusAnswerProps> = ({ bonus }) => {
+  return <div className="grid items-center h-32">{bonus}</div>
+}

@@ -4,12 +4,8 @@ import { CrestToNameAnswer } from "src/components/crest/CrestToNameAnswer"
 import { CrestToNameQuestion } from "src/components/crest/CrestToNameQuestion"
 import { NameToCrestAnswer } from "src/components/crest/NameToCrestAnswer"
 import { NameToCrestQuestion } from "src/components/crest/NameToCrestQuestion"
-import { civs } from "src/data/civs"
+import { randomCivs } from "src/data/civs"
 import { QueueData, QueueItemData } from "./types"
-
-function randomCivs() {
-  return shuffle(civs)
-}
 
 export function buildQueueData(): QueueData {
   const crestToName: QueueData = randomCivs().map((civ) => () => {

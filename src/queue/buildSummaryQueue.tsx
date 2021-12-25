@@ -3,12 +3,8 @@ import uniq from "lodash/uniq"
 import React from "react"
 import { CivToSummaryAnswer } from "src/components/summary/CivToSummaryAnswer"
 import { CivToSummaryQuestion } from "src/components/summary/CivToSummaryQuestion"
-import { civs } from "src/data/civs"
+import { randomCivs } from "src/data/civs"
 import { QueueData, QueueItemData } from "./types"
-
-function randomCivs() {
-  return shuffle(civs)
-}
 
 export function buildQueueData(): QueueData {
   const civToSummary: QueueData = randomCivs().map((civ) => () => {

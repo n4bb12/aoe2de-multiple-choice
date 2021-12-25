@@ -13,6 +13,9 @@ const Page: FC = () => {
       <Button as="link" href="/spezialeinheiten">
         Spezialeinheiten
       </Button>
+      <Button as="link" href="/boni">
+        Boni
+      </Button>
       <Button as="link" href="/team-boni">
         Team-Boni
       </Button>
