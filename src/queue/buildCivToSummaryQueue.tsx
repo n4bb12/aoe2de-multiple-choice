@@ -3,15 +3,15 @@ import uniq from "lodash/uniq"
 import React from "react"
 import { CivToSummaryAnswer } from "src/components/summary/CivToSummaryAnswer"
 import { CivToSummaryQuestion } from "src/components/summary/CivToSummaryQuestion"
-import { randomCivs } from "src/data/civs"
+import { civs } from "src/data/civs"
 import { QueueData, QueueItemData } from "./types"
 
 export function buildQueueData(): QueueData {
-  const civToSummary: QueueData = randomCivs().map((civ) => () => {
+  const civToSummary: QueueData = shuffle(civs).map((civ) => () => {
     const correctAnswer = <CivToSummaryAnswer summary={civ.summary} />
 
     const incorrectSummaries = uniq(
-      randomCivs()
+      shuffle(civs)
         .map((otherCiv) => otherCiv.summary)
         .filter((summary) => summary !== civ.summary),
     )

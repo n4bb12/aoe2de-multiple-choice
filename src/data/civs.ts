@@ -1,5 +1,4 @@
 import data from "./civs.json"
-import shuffle from "lodash/shuffle"
 
 export type NameAndIconData = {
   name: string
@@ -19,7 +18,3 @@ export type CivData = NameAndIconData & {
 }
 
 export const civs: CivData[] = data
-
-export function randomCivs() {
-  return shuffle(civs)
-}

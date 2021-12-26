@@ -6,7 +6,5 @@ export type BonusToCivQuestionProps = {
 }
 
 export const BonusToCivQuestion: FC<BonusToCivQuestionProps> = ({ bonus }) => {
-  return (
-    <Question text="Welche Zivilisation hat diesen Bonus?" hint={bonus} />
-  )
+  return <Question text="Welche Zivilisation hat diesen Bonus?" hint={bonus} />
 }
