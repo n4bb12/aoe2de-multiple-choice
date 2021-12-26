@@ -5,7 +5,7 @@ import { TeamBonusToCivQuestion } from "src/components/team-bonus/TeamBonusToCiv
 import { civs } from "src/data/civs"
 import { QueueData, QueueItemData } from "./types"
 
-export function buildQueueData(): QueueData {
+export function buildTeamBonusToCivQueue(): QueueData {
   const teamBonusToCiv: QueueData = shuffle(civs).map((civ) => () => {
     const correctAnswer = <Civ civ={civ} />
 

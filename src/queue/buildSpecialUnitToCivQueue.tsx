@@ -5,7 +5,7 @@ import { SpecialUnitToCivQuestion } from "src/components/special-units/SpecialUn
 import { civs } from "src/data/civs"
 import { QueueData, QueueItemData } from "./types"
 
-export function buildQueueData(): QueueData {
+export function buildSpecialUnitToCivQueue(): QueueData {
   const specialUnitToCiv: QueueData = shuffle(civs)
     .map((civ) => {
       return civ.specialUnits.map((specialUnit) => () => {

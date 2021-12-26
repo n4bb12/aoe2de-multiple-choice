@@ -1,9 +1,9 @@
 import React, { FC } from "react"
 import { Queue } from "src/components/Queue"
-import { buildQueueData } from "src/queue/buildCrestToCivQueue"
+import { buildCrestToCivQueue } from "src/queue/buildCrestToCivQueue"
 
 const Page: FC = () => {
-  return <Queue buildQueueData={buildQueueData} />
+  return <Queue buildQueueData={buildCrestToCivQueue} />
 }
 
 export default Page

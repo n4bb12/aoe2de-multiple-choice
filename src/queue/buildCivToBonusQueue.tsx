@@ -6,7 +6,7 @@ import { civs } from "src/data/civs"
 import { getRandomArrayItem } from "src/utils/getRandomArrayItem"
 import { QueueData, QueueItemData } from "./types"
 
-export function buildQueueData(): QueueData {
+export function buildCivToBonusQueue(): QueueData {
   const civToBonus: QueueData = shuffle(civs)
     .map((civ) => {
       return civ.bonuses.map((bonus) => () => {

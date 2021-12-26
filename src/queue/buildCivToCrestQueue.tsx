@@ -5,7 +5,7 @@ import { NameToCrestQuestion } from "src/components/crest/NameToCrestQuestion"
 import { civs } from "src/data/civs"
 import { QueueData, QueueItemData } from "./types"
 
-export function buildQueueData(): QueueData {
+export function buildCivToCrestQueue(): QueueData {
   const civToCrest: QueueData = shuffle(civs).map((civ) => () => {
     const correctAnswer = <NameToCrestAnswer civ={civ} />
 

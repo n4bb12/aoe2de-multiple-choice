@@ -50,6 +50,10 @@ const Page: FC = () => {
       <RightButton as="link" href="/volk-team-bonus">
         Volk 🠖 Team-Bonus
       </RightButton>
+
+      <Button as="link" href="/gemischt" className="col-span-2">
+        Gemischt
+      </Button>
     </div>
   )
 }

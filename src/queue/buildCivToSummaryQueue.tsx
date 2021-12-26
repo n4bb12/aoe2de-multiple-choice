@@ -6,7 +6,7 @@ import { CivToSummaryQuestion } from "src/components/summary/CivToSummaryQuestio
 import { civs } from "src/data/civs"
 import { QueueData, QueueItemData } from "./types"
 
-export function buildQueueData(): QueueData {
+export function buildCivToSummaryQueue(): QueueData {
   const civToSummary: QueueData = shuffle(civs).map((civ) => () => {
     const correctAnswer = <CivToSummaryAnswer summary={civ.summary} />
 
