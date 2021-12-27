@@ -3,11 +3,19 @@ import { CivData } from "src/data/civs"
 import { civConfigs } from "./civConfigs"
 import { readStrings } from "./readStrings"
 
-function extractSection(section: string) {
-  return section
-    .split(/\\n/g)
-    .slice(1)
-    .map((line) => line.replace("•", "").trim())
+function normalize(line: string) {
+  const normalized = line
+    .replace(/\\n$/g, "")
+    .replace(/ \\n/g, "; ")
+    .replace(/\\n/g, "")
+    .replace(/,;/g, ",")
+    .replace(/\s+/g, " ")
+    .replace(/ %/g, "%")
+    .replace(/\+ (\d)/g, "+$1")
+    .replace(/\- (\d)/g, "-$1")
+    .replace(/x mehr/g, "x")
+    .trim()
+  return normalized
 }
 
 export async function generateCivs() {
@@ -22,18 +30,25 @@ export async function generateCivs() {
         name,
         icon: "/crests/" + config.icons.crest,
         summary: sections[0].trim(),
-        bonuses: extractSection(sections[1]),
-        specialUnits: extractSection(sections[2])[0]
+        bonuses: sections[1].split(/•/g).slice(1).map(normalize),
+        specialUnits: sections[2]
+          .split(/\\n/g)
+          .slice(1)
+          .map(normalize)[0]
           .split(", ")
           .map((name, index) => ({
             name,
             icon: "/units/" + config.icons.specialUnits[index] || "",
           })),
-        specialTechs: extractSection(sections[3]).map((name, index) => ({
-          name,
-          icon: "/techs/" + config.icons.specialTechs[index] || "",
-        })),
-        teamBonus: extractSection(sections[4])[0],
+        specialTechs: sections[3]
+          .split(/•/g)
+          .slice(1)
+          .map(normalize)
+          .map((name, index) => ({
+            name,
+            icon: "/techs/" + config.icons.specialTechs[index] || "",
+          })),
+        teamBonus: sections[4].split(/\\n/g).slice(1).map(normalize)[0],
       }
       return civ
     })
