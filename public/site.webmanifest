@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json.schemastore.org/web-manifest",
+  "lang": "de",
+  "name": "AOE2DE Fragen",
+  "short_name": "AOE2DE",
+  "description": "Multiple-Choice Fragen zu Age of Empires II: Definitive Edition",
+  "categories": [],
+  "theme_color": "#ffdf91",
+  "background_color": "#ffdf91",
+  "display": "standalone",
+  "orientation": "any",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}
