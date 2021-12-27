@@ -1,7 +1,8 @@
 import React, { FC, MouseEventHandler, ReactNode, useState } from "react"
 import { Button } from "./Button"
 
-const sharedClassName = "grid w-full h-full px-3 sm:px-6 py-1 sm:py-3 text-center rounded-xl"
+const sharedClassName =
+  "grid w-full h-full py-2 px-4 sm:py-3 sm:px-6 text-center rounded-xl"
 
 const disabledClassName = sharedClassName + " border-transparent cursor-default"
 
@@ -25,11 +26,7 @@ const AnswerButton: FC<{ onClick: MouseEventHandler }> = ({
   children,
   onClick,
 }) => (
-  <Button
-    className={sharedClassName}
-    onClick={onClick}
-    variant="secondary"
-  >
+  <Button className={sharedClassName} onClick={onClick} variant="secondary">
     {children}
   </Button>
 )

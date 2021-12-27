@@ -19,6 +19,10 @@ export const Icon: FC<IconProps> = ({ src, alt, size = "large" }) => {
   const className = mapSize(size)
 
   return (
-    <img src={hashedSrc} alt={alt} className={`flex text-sm leading-tight ${className}`} />
+    <img
+      src={hashedSrc}
+      alt={alt}
+      className={`flex text-sm leading-tight ${className}`}
+    />
   )
 }
