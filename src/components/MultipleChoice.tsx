@@ -1,7 +1,7 @@
 import React, { FC, MouseEventHandler, ReactNode, useState } from "react"
 import { Button } from "./Button"
 
-const sharedClassName = "grid w-full h-full px-6 py-3 text-center rounded-xl"
+const sharedClassName = "grid w-full h-full px-3 sm:px-6 py-1 sm:py-3 text-center rounded-xl"
 
 const disabledClassName = sharedClassName + " border-transparent cursor-default"
 
@@ -26,7 +26,7 @@ const AnswerButton: FC<{ onClick: MouseEventHandler }> = ({
   onClick,
 }) => (
   <Button
-    className={sharedClassName + " bg-white hover:bg-blue-700 hover:text-white"}
+    className={sharedClassName}
     onClick={onClick}
     variant="secondary"
   >
@@ -55,10 +55,10 @@ export const MultipleChoice: FC<MultipleChoiceProps> = ({
   }
 
   return (
-    <div className="grid gap-8">
+    <div className="grid gap-4 sm:gap-8">
       <div>{question}</div>
 
-      <div className="grid items-stretch gap-2 md:grid-cols-2">
+      <div className="grid items-stretch gap-2 sm:grid-cols-2">
         {answers.map((answer, index) => {
           return (
             <div key={index}>

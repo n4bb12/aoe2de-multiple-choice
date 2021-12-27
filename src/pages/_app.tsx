@@ -9,7 +9,7 @@ import "src/global.css"
 const CustomApp: FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <Background>
-      <div className="grid items-start w-screen min-h-screen grid-rows-[auto,1fr,auto] gap-8 p-8 leading-tight">
+      <div className="bg-white/75 sm:bg-transparent grid items-start w-screen min-h-screen grid-rows-[auto,1fr,auto] gap-4 sm:gap-8 sm:p-8 leading-tight">
         <Header />
         <Main>
           <Component {...pageProps} />

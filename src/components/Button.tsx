@@ -22,10 +22,10 @@ export const Button: FC<ButtonProps> = ({
 }) => {
   let className =
     variant === "primary"
-      ? "text-white bg-blue-700 hover:bg-blue-600"
-      : "bg-gray-300  hover:bg-gray-400 hover:text-white"
+      ? "text-white bg-blue-700 fine:hover:bg-blue-600"
+      : "bg-white fine:hover:bg-blue-600 fine:hover:text-white"
 
-  className = `block w-full h-full p-3 text-center rounded-xl ${className} ${props.className}`
+  className = `block w-full h-full px-3 sm:px-6 py-3 text-center rounded-xl ${className} ${props.className}`
 
   if (as === "link") {
     return <A {...(props as AsLinkProps)} className={className} />

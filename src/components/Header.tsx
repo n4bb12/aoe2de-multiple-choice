@@ -11,14 +11,14 @@ export const Header: FC = () => {
   }
 
   return (
-    <header>
+    <header className="row-start-2 sm:row-start-1">
       <Card>
         <nav className="p-4">
           <ul className="text-center">
             <li>
               <A
                 href="/"
-                className="hover:underline underline-offset-2 decoration-blue-700"
+                className="fine:hover:underline underline-offset-2 decoration-blue-700"
               >
                 Startseite
               </A>
