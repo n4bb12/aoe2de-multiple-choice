@@ -135,7 +135,7 @@
     ],
     "specialTechs": [
       {
-        "name": "Wagenburg (Schießpulvereinheiten bewegen sich um 15% schneller)",
+        "name": "Wagenburg (Schießpulvereinheiten bewegen sich 15% schneller)",
         "icon": "/techs/undefined"
       },
       {
@@ -152,7 +152,7 @@
     "bonuses": [
       "Dorfzentren kosten ab der Ritterzeit -50% Holz",
       "Einfache Bogenschützen (außer Plänkler) haben je +1 Reichweite in der Ritterzeit und der Imperialzeit (+2 gesamt)",
-      "Schäfer arbeiten um 25% schneller"
+      "Schäfer arbeiten 25% schneller"
     ],
     "specialUnits": [
       {
@@ -170,7 +170,7 @@
         "icon": "/techs/undefined"
       }
     ],
-    "teamBonus": "Schießanlagen arbeiten um 20% schneller"
+    "teamBonus": "Schießanlagen arbeiten 20% schneller"
   },
   {
     "name": "Bulgaren",
@@ -557,7 +557,7 @@
     "summary": "Defensives Volk von Seefahrern",
     "bonuses": [
       "Dorfbewohner haben +3 Sichtweite",
-      "Steinbrucharbeiter arbeiten um 20% schneller",
+      "Steinbrucharbeiter arbeiten 20% schneller",
       "Weiterentwicklungen für Türme gratis (Kanonenturm benötigt Chemie)",
       "Kostenlose Rüstungsweiterentwicklungen für Bogenschützen",
       "Militäreinheiten (außer Belagerungseinheiten) kosten -20% Holz"
@@ -618,7 +618,7 @@
     "summary": "Kavallerie- und Mönchsvolk",
     "bonuses": [
       "+150 Nahrung beim Start",
-      "Speerkämpfer und Plänkler sind um 10% schneller",
+      "Speerkämpfer und Plänkler sind 10% schneller",
       "Jede einquartierte Reliquie gewährt Rittern und Leitis +1 Angriffsstärke (maximal +4)"
     ],
     "specialUnits": [
@@ -641,7 +641,7 @@
         "icon": "/techs/undefined"
       }
     ],
-    "teamBonus": "Klöster arbeiten um 20% schneller"
+    "teamBonus": "Klöster arbeiten 20% schneller"
   },
   {
     "name": "Malaien",
@@ -814,7 +814,7 @@
     "summary": "Volk von Seefahrern mit Schießpulver",
     "bonuses": [
       "Alle Einheiten kosten -20% Gold",
-      "Technologien werden um 30% schneller entwickelt",
+      "Technologien werden 30% schneller entwickelt",
       "Schiffe +10% LP",
       "Können in der Imperialzeit Feitoria bauen"
     ],
@@ -1025,7 +1025,7 @@
     "summary": "Volk mit Schießpulver",
     "bonuses": [
       "Schießpulvereinheiten +25% LP; Schießpulver-Technologien kosten -50%; Chemie gratis",
-      "Goldarbeiter arbeiten um 20% schneller",
+      "Goldarbeiter arbeiten 20% schneller",
       "Berittener Späher, Leichte Kavallerie, Husar +1 Durchschlagsrüstung",
       "Entwicklung von Leichter Kavallerie und Husaren gratis"
     ],

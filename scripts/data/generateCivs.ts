@@ -14,6 +14,7 @@ function normalize(line: string) {
     .replace(/\+ (\d)/g, "+$1")
     .replace(/\- (\d)/g, "-$1")
     .replace(/x mehr/g, "x")
+    .replace(/um (\d+)%/g, "$1%")
     .trim()
   return normalized
 }
