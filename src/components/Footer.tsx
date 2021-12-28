@@ -2,7 +2,7 @@ import React, { FC } from "react"
 
 export const Footer: FC = () => {
   return (
-    <footer className="mx-auto text-sm text-center sm:text-white sm:text-base">
+    <footer className="mx-auto text-sm text-center text-white sm:text-base">
       <div className="max-w-3xl p-4">
         Age of Empires II: Definitive Edition © Microsoft Corporation. This
         website was created under Microsoft's "Game Content Usage Rules" using
