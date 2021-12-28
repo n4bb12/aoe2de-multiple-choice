@@ -1,5 +1,5 @@
 {
-  "name": "aoe2de-facts",
+  "name": "aoe2de-multiple-choice",
   "private": true,
   "scripts": {
     "dev": "next dev",

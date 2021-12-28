@@ -8,6 +8,10 @@ export type HeadProps = {
 export const Head: FC<HeadProps> = ({ title }) => (
   <NextHead>
     <title>{title}</title>
+    <meta
+      name="description"
+      content="Multiple-Choice Fragen zu Age of Empires II: Definitive Edition"
+    />
     <meta name="image" content="/android-chrome-192x192.png" />
     <link rel="canonical" href="https://aoe2de-multiple-choice.vercel.app" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
