@@ -7,7 +7,7 @@
   "categories": [],
   "theme_color": "#181C29",
   "background_color": "#ffffff",
-  "display": "standalone",
+  "display": "browser",
   "orientation": "any",
   "scope": "/",
   "start_url": "/",
