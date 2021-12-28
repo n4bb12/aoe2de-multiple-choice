@@ -11,7 +11,7 @@ import { buildSummaryToCivQueue } from "./buildSummaryToCivQueue"
 import { buildTeamBonusToCivQueue } from "./buildTeamBonusToCivQueue"
 import { QueueData } from "./types"
 
-export function buildQueueData(): QueueData {
+export function buildMixedQueue(): QueueData {
   return shuffle([
     ...buildBonusToCivQueue(),
     ...buildCivToBonusQueue(),

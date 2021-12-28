@@ -1,9 +1,15 @@
 import React, { FC } from "react"
+import { Head } from "src/components/Head"
 import { Queue } from "src/components/Queue"
 import { buildCivToTeamBonusQueue } from "src/queue/buildCivToTeamBonusQueue"
 
 const Page: FC = () => {
-  return <Queue buildQueueData={buildCivToTeamBonusQueue} />
+  return (
+    <>
+      <Head title="Volk &#10146; Team-Bonus" />
+      <Queue buildQueueData={buildCivToTeamBonusQueue} />
+    </>
+  )
 }
 
 export default Page

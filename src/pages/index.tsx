@@ -51,8 +51,8 @@ const Page: FC = () => {
         Volk &#10146; Team-Bonus
       </RightButton>
 
-      <Button as="link" href="/gemischt" className="col-span-2">
-        Gemischt
+      <Button as="link" href="/alle-fragen" className="col-span-2">
+        Alle Fragen
       </Button>
     </div>
   )
