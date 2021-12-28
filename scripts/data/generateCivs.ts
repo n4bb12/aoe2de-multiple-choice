@@ -30,7 +30,6 @@ export async function generateCivs() {
       const civ: CivData = {
         name,
         icon: "/crests/" + config.icons.crest,
-        summary: sections[0].trim(),
         bonuses: sections[1].split(/•/g).slice(1).map(normalize),
         specialUnits: sections[2]
           .split(/\\n/g)

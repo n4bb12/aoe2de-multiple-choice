@@ -23,13 +23,6 @@ const Page: FC = () => {
         Volk &#10146; Wappen
       </RightButton>
 
-      {/* <LeftButton as="link" href="/kurzbeschreibung-volk">
-        Kurzbeschreibung &#10146; Volk
-      </LeftButton>
-      <RightButton as="link" href="/volk-kurzbeschreibung">
-        Volk &#10146; Kurzbeschreibung
-      </RightButton> */}
-
       <LeftButton as="link" href="/spezialeinheit-volk">
         Spezialeinheit &#10146; Volk
       </LeftButton>

@@ -2,7 +2,6 @@
   {
     "name": "Äthiopier",
     "icon": "/crests/menu_techtree_ethiopians.png",
-    "summary": "Volk von Bogenschützen",
     "bonuses": [
       "Bogenschützen schießen +18% schneller",
       "+100 Gold, +100 Nahrung beim Fortschreiten in das nächste Zeitalter.",
@@ -29,7 +28,6 @@
   {
     "name": "Azteken",
     "icon": "/crests/menu_techtree_aztecs.png",
-    "summary": "Unberittenes Volk von Mönchen",
     "bonuses": [
       "Dorfbewohner tragen +3",
       "Militäreinheiten 11% schneller erschaffen",
@@ -57,7 +55,6 @@
   {
     "name": "Berber",
     "icon": "/crests/menu_techtree_berber.png",
-    "summary": "Volk von Seefahrern und Reitern",
     "bonuses": [
       "Dorfbewohner bewegen sich +10% schneller",
       "Stalleinheiten kosten -15% in Ritter-, -20% in Imperialzeit",
@@ -88,7 +85,6 @@
   {
     "name": "Birmanen",
     "icon": "/crests/menu_techtree_burmese.png",
-    "summary": "Volk von Mönchen und Elefantenreitern",
     "bonuses": [
       "Technologien im Holzfällerlager gratis",
       "Infanterie +1 Angriffskraft pro Zeitalter (ab der Feudalzeit)",
@@ -115,7 +111,6 @@
   {
     "name": "Böhmen",
     "icon": "/crests/menu_techtree_bohemians.png",
-    "summary": "Schießpulver- und Mönchsvolk",
     "bonuses": [
       "Schmieden, Klöster und Universitäten kosten -100 Holz",
       "Chemie und Leichter Kanonier in Ritterzeit verfügbar",
@@ -148,7 +143,6 @@
   {
     "name": "Briten",
     "icon": "/crests/menu_techtree_britons.png",
-    "summary": "Volk einfacher Bogenschützen",
     "bonuses": [
       "Dorfzentren kosten ab der Ritterzeit -50% Holz",
       "Einfache Bogenschützen (außer Plänkler) haben je +1 Reichweite in der Ritterzeit und der Imperialzeit (+2 gesamt)",
@@ -175,7 +169,6 @@
   {
     "name": "Bulgaren",
     "icon": "/crests/menu_techtree_bulgarians.png",
-    "summary": "Infanterie- und Kavallerievolk",
     "bonuses": [
       "Weiterentwicklungen für Milizsoldatenzweig gratis",
       "Dorfzentren kosten -50% Steine",
@@ -203,7 +196,6 @@
   {
     "name": "Burgunder",
     "icon": "/crests/menu_techtree_burgundians.png",
-    "summary": "Berittenes Volk",
     "bonuses": [
       "Wirtschaftsentwicklungen kosten -50% Nahrung und sind ein Zeitalter früher verfügbar",
       "Stalltechnologien kosten -50%",
@@ -235,7 +227,6 @@
   {
     "name": "Byzantiner",
     "icon": "/crests/menu_techtree_byzantines.png",
-    "summary": "Defensives Volk",
     "bonuses": [
       "Gebäude +10% LP Dunkle Zeit, +20% Feudalzeit, +30% Ritterzeit, +40% Imperialzeit",
       "Kamelreiter, Plänkler, Pikeniere u. Hellebardiere kosten -25%",
@@ -264,7 +255,6 @@
   {
     "name": "Chinesen",
     "icon": "/crests/menu_techtree_chinese.png",
-    "summary": "Volk von Bogenschützen",
     "bonuses": [
       "+3 Dorfbewohner, -50 Holz, -200 Nahrung",
       "Technologien kosten -10% in Feudalzeit, -15% Ritterzeit, -20% Imperialzeit",
@@ -292,7 +282,6 @@
   {
     "name": "Franken",
     "icon": "/crests/menu_techtree_franks.png",
-    "summary": "Berittenes Volk",
     "bonuses": [
       "Burgen kosten -25%",
       "Kavallerie +20% Lebenspunkte ab Feudalzeit",
@@ -320,7 +309,6 @@
   {
     "name": "Goten",
     "icon": "/crests/menu_techtree_goths.png",
-    "summary": "Unberittenes Volk",
     "bonuses": [
       "Infanterie kostet in der Dunklen Zeit -20%, in der Feudalzeit -25%, in der Ritterzeit -30%, in der Imperialzeit -35%",
       "Infanterie erhält pro Zeitalter +1 Angriffsstärke g. Gebäude (ab Feudalzeit)",
@@ -349,7 +337,6 @@
   {
     "name": "Hunnen",
     "icon": "/crests/menu_techtree_huns.png",
-    "summary": "Berittenes Volk",
     "bonuses": [
       "Brauchen keine Häuser zu bauen, beginnen aber mit -100 Holzeinheiten",
       "Ber. Schützen kosten -10% in Ritter-, -20% in Imperialzeit",
@@ -376,7 +363,6 @@
   {
     "name": "Inder",
     "icon": "/crests/menu_techtree_indians.png",
-    "summary": "Volk von Kamelreitern mit Schießpulver",
     "bonuses": [
       "Dorfbewohner kosten -10% in Dunkler Zeit, -15% in Feudalzeit, -20% in Ritterzeit, -25% in Imperialzeit",
       "Fischer arbeiten +10% schneller",
@@ -407,7 +393,6 @@
   {
     "name": "Inka",
     "icon": "/crests/menu_techtree_inca.png",
-    "summary": "Unberittenes Volk",
     "bonuses": [
       "Beginnen mit einem zusätzlichen Lama",
       "Dorfbewohner profitieren ab der Ritterzeit von Rüstungsentwicklungen der Schmiede",
@@ -439,7 +424,6 @@
   {
     "name": "Italiener",
     "icon": "/crests/menu_techtree_italians.png",
-    "summary": "Volk von Bogenschützen und Seefahrern",
     "bonuses": [
       "Nächstes Zeitalter kostet -15%",
       "Hafen- und Universitätstechnologien kosten -33%",
@@ -471,7 +455,6 @@
   {
     "name": "Japaner",
     "icon": "/crests/menu_techtree_japanese.png",
-    "summary": "Unberittenes Volk",
     "bonuses": [
       "Fischkutter haben 2x LP; +2P Rüstung; Arbeitsgeschw. +5% Dunkle Zeit, +10% Feudal-, +15% Ritter-, +20% Imperialzeit",
       "Mühle, Holz-/Bergarbeiterlager kosten -50%",
@@ -498,7 +481,6 @@
   {
     "name": "Kelten",
     "icon": "/crests/menu_techtree_celts.png",
-    "summary": "Volk von Infanterie und Belagerungswaffen",
     "bonuses": [
       "Infanterie bewegt sich 15% schneller (ab der Feudalzeit)",
       "Holzfäller arbeiten 15% schneller",
@@ -526,7 +508,6 @@
   {
     "name": "Khmer",
     "icon": "/crests/menu_techtree_khmer.png",
-    "summary": "Volk von Belagerern und Elefantenreitern",
     "bonuses": [
       "Keine Gebäude benötigt, um in das nächste Zeitalter voranzuschreiten oder andere Gebäude freizuschalten",
       "Bauern benötigen keine Mühlen/Dorfzentren, um Nahrung abzuliefern",
@@ -554,7 +535,6 @@
   {
     "name": "Koreaner",
     "icon": "/crests/menu_techtree_koreans.png",
-    "summary": "Defensives Volk von Seefahrern",
     "bonuses": [
       "Dorfbewohner haben +3 Sichtweite",
       "Steinbrucharbeiter arbeiten 20% schneller",
@@ -587,7 +567,6 @@
   {
     "name": "Kumanen",
     "icon": "/crests/menu_techtree_cumans.png",
-    "summary": "Kavallerievolk",
     "bonuses": [
       "In der Feudalzeit kann ein weiteres Dorfzentrum gebaut werden",
       "Waffenschmiede und Rammbock sind in der Feudalzeit, Sturmbock-Aufwertung in der Ritterzeit verfügbar",
@@ -615,7 +594,6 @@
   {
     "name": "Litauer",
     "icon": "/crests/menu_techtree_lithuanians.png",
-    "summary": "Kavallerie- und Mönchsvolk",
     "bonuses": [
       "+150 Nahrung beim Start",
       "Speerkämpfer und Plänkler sind 10% schneller",
@@ -646,7 +624,6 @@
   {
     "name": "Malaien",
     "icon": "/crests/menu_techtree_malay.png",
-    "summary": "Volk von Seefahrern",
     "bonuses": [
       "Voranschreiten ins nächste Zeitalter +66% schneller",
       "Reusen kosten -33% und bieten 3x so viel Nahrung",
@@ -673,7 +650,6 @@
   {
     "name": "Malier",
     "icon": "/crests/menu_techtree_malians.png",
-    "summary": "Unberittenes Volk",
     "bonuses": [
       "Gebäude kosten -15% Holz",
       "Kasernen-Einheiten +1 Durchschlagspanzerung pro Zeitalter (ab Feudalzeit)",
@@ -700,7 +676,6 @@
   {
     "name": "Maya",
     "icon": "/crests/menu_techtree_mayans.png",
-    "summary": "Volk von Bogenschützen",
     "bonuses": [
       "Beginnt mit +1 Dorfbewohner, aber -50 Nahrungseinheiten",
       "Rohstoffe halten 15% länger",
@@ -727,7 +702,6 @@
   {
     "name": "Mongolen",
     "icon": "/crests/menu_techtree_mongols.png",
-    "summary": "Volk berittener Schützen",
     "bonuses": [
       "Berittene Bogenschützen +25% Angriffsgeschw.",
       "Leichte Kavallerie, Hussaren, Steppenreiter +30% LP",
@@ -754,7 +728,6 @@
   {
     "name": "Perser",
     "icon": "/crests/menu_techtree_persians.png",
-    "summary": "Berittenes Volk",
     "bonuses": [
       "+50 Holz und Nahrung beim Start",
       "Dorfzentrum und Hafen haben 2x LP, Arbeitsgeschw. +10% Feudal-, +15% Ritter-, +20% Imperialzeit"
@@ -780,7 +753,6 @@
   {
     "name": "Polen",
     "icon": "/crests/menu_techtree_poles.png",
-    "summary": "Kavallerievolk",
     "bonuses": [
       "Dorfbewohner regenerieren pro Minute 5 LP in Dunkler Zeit, 10 in Feudalzeit, 15 in Ritterzeit, 20 in Imperialzeit",
       "Gutshof ersetzt Mühle",
@@ -811,7 +783,6 @@
   {
     "name": "Portugiesen",
     "icon": "/crests/menu_techtree_portuguese.png",
-    "summary": "Volk von Seefahrern mit Schießpulver",
     "bonuses": [
       "Alle Einheiten kosten -20% Gold",
       "Technologien werden 30% schneller entwickelt",
@@ -843,7 +814,6 @@
   {
     "name": "Sarazenen",
     "icon": "/crests/menu_techtree_saracens.png",
-    "summary": "Volk von Kamelreitern und Seefahrern",
     "bonuses": [
       "Handelskosten für Markt 5%",
       "Marktplatz kostet -100 Holz",
@@ -872,7 +842,6 @@
   {
     "name": "Sizilianer",
     "icon": "/crests/menu_techtree_sicilians.png",
-    "summary": "Infanterie- und Kavallerievolk",
     "bonuses": [
       "Startet mit +100 Steinen",
       "Burgen und Stadtzentren werden 100% schneller gebaut",
@@ -901,7 +870,6 @@
   {
     "name": "Slawen",
     "icon": "/crests/menu_techtree_slavs.png",
-    "summary": "Volk von Infanterie und Belagerungswaffen",
     "bonuses": [
       "Bauern arbeiten 10% schneller",
       "Versorgung gratis",
@@ -928,7 +896,6 @@
   {
     "name": "Spanier",
     "icon": "/crests/menu_techtree_spanish.png",
-    "summary": "Volk von Mönchen und Schießpulver",
     "bonuses": [
       "Bauarbeiter arbeiten 30% schneller",
       "Schmiedeentwicklungen ohne Gold",
@@ -960,7 +927,6 @@
   {
     "name": "Tataren",
     "icon": "/crests/menu_techtree_tatars.png",
-    "summary": "Berittenes Bogenschützenvolk",
     "bonuses": [
       "Dorfbewohner sammeln +50% Nahrung von Herdentieren",
       "Neue Dorfzentren erzeugen ab der Ritterzeit 2 Schafe",
@@ -992,7 +958,6 @@
   {
     "name": "Teutonen",
     "icon": "/crests/menu_techtree_teutons.png",
-    "summary": "Unberittenes Volk",
     "bonuses": [
       "Mönche haben 2x Reichweite zum Heilen",
       "Türme nehmen 2x Einheiten auf",
@@ -1022,7 +987,6 @@
   {
     "name": "Türken",
     "icon": "/crests/menu_techtree_turks.png",
-    "summary": "Volk mit Schießpulver",
     "bonuses": [
       "Schießpulvereinheiten +25% LP; Schießpulver-Technologien kosten -50%; Chemie gratis",
       "Goldarbeiter arbeiten 20% schneller",
@@ -1050,7 +1014,6 @@
   {
     "name": "Ungarn",
     "icon": "/crests/menu_techtree_magyars.png",
-    "summary": "Berittenes Volk",
     "bonuses": [
       "Dorfbewohner töten Wölfe mit einem Angriff",
       "Schmiedekunst, Eisengießen und Schmelzofen gratis (Schmiede benötigt)",
@@ -1077,7 +1040,6 @@
   {
     "name": "Vietnamesen",
     "icon": "/crests/menu_techtree_vietnamese.png",
-    "summary": "Volk von Bogenschützen",
     "bonuses": [
       "Die Position der Gegner wird zu Spielbeginn aufgedeckt",
       "Wirtschaftsentwicklungen kosten kein Holz",
@@ -1109,7 +1071,6 @@
   {
     "name": "Wikinger",
     "icon": "/crests/menu_techtree_vikings.png",
-    "summary": "Unberittenes Volk von Seefahrern",
     "bonuses": [
       "Kriegsschiffe kosten -15% in der Feudalzeit, -15% in der Ritterzeit, -20% in der Imperialzeit",
       "Infanterie +20% LP ab der Feudalzeit",

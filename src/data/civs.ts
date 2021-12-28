@@ -10,7 +10,6 @@ export type SpecialUnitData = NameAndIconData
 export type SpecialTechData = NameAndIconData
 
 export type CivData = NameAndIconData & {
-  summary: string
   bonuses: string[]
   teamBonus: string
   specialUnits: SpecialUnitData[]
