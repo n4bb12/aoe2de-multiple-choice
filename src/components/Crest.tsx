@@ -1,4 +1,4 @@
-import React, { FC } from "react"
+import { FC } from "react"
 import { Icon, IconProps } from "./Icon"
 
 export type CrestProps = IconProps

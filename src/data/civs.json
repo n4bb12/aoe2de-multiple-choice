@@ -80,7 +80,7 @@
         "icon": "/techs/undefined"
       }
     ],
-    "teamBonus": "Ginete ab Ritterzeit in Schießanlage verfügbar"
+    "teamBonus": "Ginete ab Ritterzeit im Schießstand verfügbar"
   },
   {
     "name": "Birmanen",
@@ -98,7 +98,7 @@
     ],
     "specialTechs": [
       {
-        "name": "Howdah (Elefantenreiter +1/+2 Panzerung)",
+        "name": "Howdah (Elefantenreiter +1/+2 Rüstung)",
         "icon": "/techs/undefined"
       },
       {
@@ -164,7 +164,7 @@
         "icon": "/techs/undefined"
       }
     ],
-    "teamBonus": "Schießanlagen arbeiten 20% schneller"
+    "teamBonus": "Schießstände arbeiten 20% schneller"
   },
   {
     "name": "Bulgaren",
@@ -172,7 +172,7 @@
     "bonuses": [
       "Weiterentwicklungen für Milizsoldatenzweig gratis",
       "Dorfzentren kosten -50% Steine",
-      "Schmiede- und Belagerungswerkstatttechnologien kosten -50% Nahrung",
+      "Schmiede- und Waffenschmiedentechnologien kosten -50% Nahrung",
       "Kann Kreposte bauen"
     ],
     "specialUnits": [
@@ -204,7 +204,7 @@
     ],
     "specialUnits": [
       {
-        "name": "Coustillier (Kavallerie)",
+        "name": "Coutilier (Kavallerie)",
         "icon": "/units/355_50730.png"
       },
       {
@@ -354,7 +354,7 @@
         "icon": "/techs/undefined"
       },
       {
-        "name": "Atheismus (+100 Jahre für Siege durch Reliquien/Weltwunder; Gegnerische Reliquien erzeugen -50% Rohstoffe)",
+        "name": "Atheismus (+100 Jahre für Siege durch Reliquien/Weltwunder Gegnerische Reliquien erzeugen -50% Rohstoffe)",
         "icon": "/techs/undefined"
       }
     ],
@@ -384,7 +384,7 @@
         "icon": "/techs/undefined"
       },
       {
-        "name": "Shatagni (Handrohrschützen haben +1 Reichweite)",
+        "name": "Shatagni (Leichte Kanoniere haben +1 Reichweite)",
         "icon": "/techs/undefined"
       }
     ],
@@ -415,7 +415,7 @@
         "icon": "/techs/undefined"
       },
       {
-        "name": "Stoffschilde (Kamayuks, Schleuderer, Adlerkrieger +1/+2 (Durchschlags-)Rüstung)",
+        "name": "Stoffschilde (Kamayuks, Schleuderer, Adlerkrieger +1/+2 Durchschlagsrüstung)",
         "icon": "/techs/undefined"
       }
     ],
@@ -503,7 +503,7 @@
         "icon": "/techs/undefined"
       }
     ],
-    "teamBonus": "Belagerungswerkstatt arbeitet 20% schneller"
+    "teamBonus": "Waffenschmiede arbeitet 20% schneller"
   },
   {
     "name": "Khmer",
@@ -570,7 +570,7 @@
     "bonuses": [
       "In der Feudalzeit kann ein weiteres Dorfzentrum gebaut werden",
       "Waffenschmiede und Rammbock sind in der Feudalzeit, Sturmbock-Aufwertung in der Ritterzeit verfügbar",
-      "Schießanlagen und Ställe kosten -75 Holz",
+      "Schießstände und Ställe kosten -75 Holz",
       "Kavallerie ist pro Zeitalter 5% schneller (beginnend mit der Feudalzeit)"
     ],
     "specialUnits": [
@@ -652,7 +652,7 @@
     "icon": "/crests/menu_techtree_malians.png",
     "bonuses": [
       "Gebäude kosten -15% Holz",
-      "Kasernen-Einheiten +1 Durchschlagspanzerung pro Zeitalter (ab Feudalzeit)",
+      "Kasernen-Einheiten +1 Durchschlagsrüstung pro Zeitalter (ab Feudalzeit)",
       "Goldminen sind 30% ergiebiger"
     ],
     "specialUnits": [
@@ -861,7 +861,7 @@
         "icon": "/techs/undefined"
       },
       {
-        "name": "Kettenhemd (Ritter +1/+2 Panzerung)",
+        "name": "Kettenhemd (Ritter +1 normale/+2 Durchschlagsrüstung)",
         "icon": "/techs/undefined"
       }
     ],
@@ -904,7 +904,7 @@
     ],
     "specialUnits": [
       {
-        "name": "Konquistador (ber. Handrohrschütze)",
+        "name": "Konquistador (ber. leichter Kanonier)",
         "icon": "/units/106_50730.png"
       },
       {
@@ -995,7 +995,7 @@
     ],
     "specialUnits": [
       {
-        "name": "Janitschar (Handrohrschütze)",
+        "name": "Janitschar (Leichter Kanonier)",
         "icon": "/units/039_50730.png"
       }
     ],

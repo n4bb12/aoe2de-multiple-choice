@@ -1,11 +1,12 @@
 import { generateBackgrounds } from "./generateBackgrounds"
 import { generateCivs } from "./generateCivs"
+import { generateCounterUnits } from "./generateCounterUnits"
 
 async function main() {
   await Promise.all([
-    //
     generateBackgrounds(),
     generateCivs(),
+    generateCounterUnits(),
   ])
 }
 

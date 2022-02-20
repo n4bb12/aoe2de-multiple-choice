@@ -1,4 +1,4 @@
-import React, { FC, MouseEventHandler, ReactNode, useState } from "react"
+import { FC, MouseEventHandler, ReactNode, useState } from "react"
 import { Button } from "./Button"
 
 const sharedClassName =

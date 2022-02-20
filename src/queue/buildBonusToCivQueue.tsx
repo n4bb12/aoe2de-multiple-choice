@@ -1,5 +1,4 @@
 import shuffle from "lodash/shuffle"
-import React from "react"
 import { BonusToCivQuestion } from "src/components/bonus/BonusToCivQuestion"
 import { Civ } from "src/components/Civ"
 import { civs } from "src/data/civs"

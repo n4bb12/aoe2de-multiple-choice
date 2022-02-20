@@ -1,5 +1,5 @@
 import { FC } from "react"
-import { CivData } from "src/data/civs"
+import { CivData } from "src/data/types"
 
 export type CrestToNameAnswerProps = {
   civ: CivData

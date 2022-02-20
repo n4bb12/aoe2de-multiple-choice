@@ -9,7 +9,7 @@
     "typecheck": "tsc --noEmit",
     "format": "prettier --write .",
     "fix": "yarn typecheck && yarn lint --fix && yarn format",
-    "script": "nodemon --ext ts --watch scripts --exec yarn ts-node",
+    "script": "nodemon --ext ts --watch scripts --exec yarn ts-node --transpileOnly",
     "data": "yarn script scripts/data/index.ts"
   },
   "dependencies": {

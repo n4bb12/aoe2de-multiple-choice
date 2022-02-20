@@ -1,4 +1,4 @@
-import React, { FC, useEffect, useState } from "react"
+import { FC, useEffect, useState } from "react"
 import { backgrounds } from "src/data/backgrounds"
 import { getRandomArrayItem } from "src/utils/getRandomArrayItem"
 

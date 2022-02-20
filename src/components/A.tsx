@@ -1,6 +1,6 @@
 import NextjsLink, { LinkProps as NextjsLinkProps } from "next/link"
 import { useRouter } from "next/router"
-import React, { AnchorHTMLAttributes, CSSProperties, forwardRef } from "react"
+import { AnchorHTMLAttributes, CSSProperties, forwardRef } from "react"
 
 export type AProps = AnchorHTMLAttributes<HTMLAnchorElement> &
   NextjsLinkProps & {

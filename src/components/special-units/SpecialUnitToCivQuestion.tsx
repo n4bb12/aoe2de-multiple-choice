@@ -1,10 +1,10 @@
-import React, { FC } from "react"
-import { SpecialUnitData } from "src/data/civs"
+import { FC } from "react"
+import { UnitData } from "src/data/types"
 import { Question } from "../Question"
 import { Unit } from "../Unit"
 
 export type SpecialUnitToCivQuestionProps = {
-  specialUnit: SpecialUnitData
+  specialUnit: UnitData
 }
 
 export const SpecialUnitToCivQuestion: FC<SpecialUnitToCivQuestionProps> = ({

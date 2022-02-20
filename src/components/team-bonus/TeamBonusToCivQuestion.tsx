@@ -1,5 +1,5 @@
-import React, { FC } from "react"
-import { CivData } from "src/data/civs"
+import { FC } from "react"
+import { CivData } from "src/data/types"
 import { Question } from "../Question"
 
 export type TeamBonusToCivQuestionProps = {

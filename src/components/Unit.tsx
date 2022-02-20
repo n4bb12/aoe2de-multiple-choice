@@ -1,9 +1,9 @@
-import React, { FC } from "react"
-import { SpecialUnitData } from "src/data/civs"
+import { FC } from "react"
+import { UnitData } from "src/data/types"
 import { Icon } from "./Icon"
 
 export type UnitProps = {
-  unit: SpecialUnitData
+  unit: UnitData
 }
 
 export const Unit: FC<UnitProps> = ({ unit }) => (

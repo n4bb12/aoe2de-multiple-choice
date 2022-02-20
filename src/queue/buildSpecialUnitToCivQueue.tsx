@@ -1,5 +1,5 @@
 import shuffle from "lodash/shuffle"
-import React from "react"
+
 import { Civ } from "src/components/Civ"
 import { SpecialUnitToCivQuestion } from "src/components/special-units/SpecialUnitToCivQuestion"
 import { civs } from "src/data/civs"

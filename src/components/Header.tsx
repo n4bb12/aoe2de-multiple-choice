@@ -1,5 +1,5 @@
 import { useRouter } from "next/router"
-import React, { FC } from "react"
+import { FC } from "react"
 import { A } from "./A"
 import { Card } from "./Card"
 

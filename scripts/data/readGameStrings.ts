@@ -1,7 +1,7 @@
 import { readFile } from "fs/promises"
 const steamLibraryDir = "D:/Spiele/SteamLibrary"
 
-export async function readStrings() {
+export async function readGameStrings() {
   const languageFile = `${steamLibraryDir}/steamapps/common/AoE2DE/resources/de/strings/key-value/key-value-strings-utf8.txt`
   const languageFileContent = await readFile(languageFile, "utf8")
 

@@ -1,5 +1,5 @@
 import shuffle from "lodash/shuffle"
-import React from "react"
+
 import { NameToCrestAnswer } from "src/components/crest/NameToCrestAnswer"
 import { NameToCrestQuestion } from "src/components/crest/NameToCrestQuestion"
 import { civs } from "src/data/civs"

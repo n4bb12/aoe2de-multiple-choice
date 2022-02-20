@@ -1,7 +1,7 @@
-import { writeFile } from "fs/promises"
-import { CivData } from "src/data/civs"
+import { CivData } from "src/data/types"
 import { civConfigs } from "./civConfigs"
-import { readStrings } from "./readStrings"
+import { writeJson } from "./fs"
+import { readGameStrings } from "./readGameStrings"
 
 function normalize(line: string) {
   const normalized = line
@@ -20,11 +20,11 @@ function normalize(line: string) {
 }
 
 export async function generateCivs() {
-  const strings = await readStrings()
+  const gameStrings = await readGameStrings()
   const civs: CivData[] = civConfigs
     .map((config) => {
-      const name = strings[config.strings.name]
-      const description = strings[config.strings.description]
+      const name = gameStrings[config.strings.name]
+      const description = gameStrings[config.strings.description]
       const sections = description.split(/\\n\\n/g)
 
       const civ: CivData = {
@@ -54,5 +54,5 @@ export async function generateCivs() {
     })
     .sort((a, b) => a.name.localeCompare(b.name))
 
-  await writeFile("src/data/civs.json", JSON.stringify(civs, null, 2), "utf8")
+  await writeJson("src/data/civs.json", civs)
 }

@@ -1,4 +1,4 @@
-import React, { FC } from "react"
+import { FC } from "react"
 import { AProps } from "src/components/A"
 import { Button } from "src/components/Button"
 import { Head } from "src/components/Head"
@@ -35,7 +35,15 @@ const Links: FC = () => (
     <LeftLink href="/team-bonus-volk">Team-Bonus ➢ Volk</LeftLink>
     <RightLink href="/volk-team-bonus">Volk ➢ Team-Bonus</RightLink>
 
-    <FullWidthLink href="/alle-fragen">Alle Fragen</FullWidthLink>
+    <FullWidthLink href="/kontereinheit-normal">
+      Kontereinheiten — Normal
+    </FullWidthLink>
+    <FullWidthLink href="/kontereinheit-regional">
+      Kontereinheiten — Normal, Regional
+    </FullWidthLink>
+    <FullWidthLink href="/kontereinheit-spezial">
+      Kontereinheiten — Normal, Regional, Spezial
+    </FullWidthLink>
   </div>
 )
 

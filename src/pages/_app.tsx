@@ -1,5 +1,5 @@
 import { AppProps } from "next/app"
-import React, { FC } from "react"
+import { FC } from "react"
 import { Background } from "src/components/Background"
 import { Footer } from "src/components/Footer"
 import { Header } from "src/components/Header"

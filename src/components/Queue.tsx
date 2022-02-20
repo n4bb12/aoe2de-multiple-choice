@@ -1,4 +1,4 @@
-import React, { FC, useEffect, useState } from "react"
+import { FC, useEffect, useState } from "react"
 import { MultipleChoice } from "src/components/MultipleChoice"
 import { QueueData } from "src/queue/types"
 

@@ -1,4 +1,4 @@
-import React, { FC } from "react"
+import { FC } from "react"
 import { Head } from "src/components/Head"
 import { Queue } from "src/components/Queue"
 import { buildTeamBonusToCivQueue } from "src/queue/buildTeamBonusToCivQueue"
