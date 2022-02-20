@@ -6,7 +6,7 @@ import { buildBonusToCivQueue } from "src/queue/buildBonusToCivQueue"
 const Page: FC = () => {
   return (
     <>
-      <Head title="Bonus &#10146; Volk" />
+      <Head title="Bonus ➢ Volk" />
       <Queue buildQueueData={buildBonusToCivQueue} />
     </>
   )

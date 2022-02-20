@@ -6,7 +6,7 @@ import { buildCivToSpecialUnitQueue } from "src/queue/buildCivToSpecialUnitQueue
 const Page: FC = () => {
   return (
     <>
-      <Head title="Volk &#10146; Spezialeinheit" />
+      <Head title="Volk ➢ Spezialeinheit" />
       <Queue buildQueueData={buildCivToSpecialUnitQueue} />
     </>
   )

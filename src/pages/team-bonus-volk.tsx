@@ -6,7 +6,7 @@ import { buildTeamBonusToCivQueue } from "src/queue/buildTeamBonusToCivQueue"
 const Page: FC = () => {
   return (
     <>
-      <Head title="Team-Bonus &#10146; Volk" />
+      <Head title="Team-Bonus ➢ Volk" />
       <Queue buildQueueData={buildTeamBonusToCivQueue} />
     </>
   )

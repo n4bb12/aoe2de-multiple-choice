@@ -6,7 +6,7 @@ import { buildCrestToCivQueue } from "src/queue/buildCrestToCivQueue"
 const Page: FC = () => {
   return (
     <>
-      <Head title="Wappen &#10146; Volk" />
+      <Head title="Wappen ➢ Volk" />
       <Queue buildQueueData={buildCrestToCivQueue} />
     </>
   )

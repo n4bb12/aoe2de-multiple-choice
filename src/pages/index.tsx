@@ -23,21 +23,17 @@ const FullWidthLink: FC<AProps> = ({ children, ...props }) => (
 
 const Links: FC = () => (
   <div className="grid grid-cols-2 gap-2">
-    <LeftLink href="/wappen-volk">Wappen &#10146; Volk</LeftLink>
-    <RightLink href="/volk-wappen">Volk &#10146; Wappen</RightLink>
+    <LeftLink href="/wappen-volk">Wappen ➢ Volk</LeftLink>
+    <RightLink href="/volk-wappen">Volk ➢ Wappen</RightLink>
 
-    <LeftLink href="/spezialeinheit-volk">
-      Spezialeinheit &#10146; Volk
-    </LeftLink>
-    <RightLink href="/volk-spezialeinheit">
-      Volk &#10146; Spezialeinheit
-    </RightLink>
+    <LeftLink href="/spezialeinheit-volk">Spezialeinheit ➢ Volk</LeftLink>
+    <RightLink href="/volk-spezialeinheit">Volk ➢ Spezialeinheit</RightLink>
 
-    <LeftLink href="/bonus-volk">Bonus &#10146; Volk</LeftLink>
-    <RightLink href="/volk-bonus">Volk &#10146; Bonus</RightLink>
+    <LeftLink href="/bonus-volk">Bonus ➢ Volk</LeftLink>
+    <RightLink href="/volk-bonus">Volk ➢ Bonus</RightLink>
 
-    <LeftLink href="/team-bonus-volk">Team-Bonus &#10146; Volk</LeftLink>
-    <RightLink href="/volk-team-bonus">Volk &#10146; Team-Bonus</RightLink>
+    <LeftLink href="/team-bonus-volk">Team-Bonus ➢ Volk</LeftLink>
+    <RightLink href="/volk-team-bonus">Volk ➢ Team-Bonus</RightLink>
 
     <FullWidthLink href="/alle-fragen">Alle Fragen</FullWidthLink>
   </div>
