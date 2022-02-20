@@ -15,6 +15,12 @@ const RightLink: FC<AProps> = ({ children, ...props }) => (
   </Button>
 )
 
+const FullWidthLink: FC<AProps> = ({ children, ...props }) => (
+  <Button {...props} as="link" className="col-span-2">
+    <div className="px-3 text-center">{children}</div>
+  </Button>
+)
+
 const Links: FC = () => (
   <div className="grid grid-cols-2 gap-2">
     <LeftLink href="/wappen-volk">Wappen &#10146; Volk</LeftLink>
@@ -33,9 +39,7 @@ const Links: FC = () => (
     <LeftLink href="/team-bonus-volk">Team-Bonus &#10146; Volk</LeftLink>
     <RightLink href="/volk-team-bonus">Volk &#10146; Team-Bonus</RightLink>
 
-    <Button href="/alle-fragen" className="col-span-2">
-      Alle Fragen
-    </Button>
+    <FullWidthLink href="/alle-fragen">Alle Fragen</FullWidthLink>
   </div>
 )
 
