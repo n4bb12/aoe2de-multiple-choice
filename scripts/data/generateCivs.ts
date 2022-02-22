@@ -29,7 +29,7 @@ export async function generateCivs() {
 
       const civ: CivData = {
         name,
-        icon: "/crests/" + config.icons.crest,
+        icon: "crests/" + config.icons.crest,
         bonuses: sections[1].split(/•/g).slice(1).map(normalize),
         specialUnits: sections[2]
           .split(/\\n/g)
@@ -38,7 +38,7 @@ export async function generateCivs() {
           .split(", ")
           .map((name, index) => ({
             name,
-            icon: "/units/" + config.icons.specialUnits[index] || "",
+            icon: "units/" + config.icons.specialUnits[index] || "",
           })),
         specialTechs: sections[3]
           .split(/•/g)
@@ -46,7 +46,7 @@ export async function generateCivs() {
           .map(normalize)
           .map((name, index) => ({
             name,
-            icon: "/techs/" + config.icons.specialTechs[index] || "",
+            icon: "techs/" + config.icons.specialTechs[index] || "",
           })),
         teamBonus: sections[4].split(/\\n/g).slice(1).map(normalize)[0],
       }

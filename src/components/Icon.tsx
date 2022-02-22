@@ -15,7 +15,7 @@ function mapSize(size: IconProps["size"]) {
 }
 
 export const Icon: FC<IconProps> = ({ src, alt, size = "large" }) => {
-  const hashedSrc = require("../../assets" + src).default.src
+  const hashedSrc = require("../../assets/icons/" + src).default.src
   const className = mapSize(size)
 
   return (

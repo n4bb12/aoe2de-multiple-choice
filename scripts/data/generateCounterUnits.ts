@@ -46,7 +46,7 @@ export async function generateCounterUnits() {
   function mapUnit(unit: JsonUnitLine["units"][number]): UnitData {
     return {
       name: unit.name,
-      icon: "/units/" + unit.icon_url,
+      icon: "units/" + unit.icon_url,
     }
   }
 
@@ -93,7 +93,7 @@ export async function generateCounterUnits() {
   )
 
   for (const icon of icons) {
-    const file = path.resolve("assets/units/" + icon)
+    const file = path.resolve("assets/icons/units/" + icon)
     if (!existsSync(file)) {
       const url = "https://aoecompanion.com/icons/" + icon
       await downloadImage({ url, file })

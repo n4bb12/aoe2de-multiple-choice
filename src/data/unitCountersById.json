@@ -2,7 +2,7 @@
   "3350": {
     "id": 3350,
     "name": "Arambai",
-    "icon": "/units/Arambaiicon-DE.png",
+    "icon": "units/Arambaiicon-DE.png",
     "counters": [
       3479,
       3477,
@@ -20,7 +20,7 @@
   "3352": {
     "id": 3352,
     "name": "Archer",
-    "icon": "/units/Archer_aoe2DE.png",
+    "icon": "units/Archer_aoe2DE.png",
     "counters": [
       3357,
       3477,
@@ -43,7 +43,7 @@
   "3353": {
     "id": 3353,
     "name": "Ballista Elephant",
-    "icon": "/units/Ballistaelephanticon-DE.png",
+    "icon": "units/Ballistaelephanticon-DE.png",
     "counters": [
       3357,
       3425,
@@ -64,7 +64,7 @@
   "3354": {
     "id": 3354,
     "name": "Battering Ram",
-    "icon": "/units/Battering_ram_aoe2DE.png",
+    "icon": "units/Battering_ram_aoe2DE.png",
     "counters": [
       3466,
       3371,
@@ -102,7 +102,7 @@
   "3355": {
     "id": 3355,
     "name": "Battle Elephant",
-    "icon": "/units/Battle_elephant_aoe2DE.png",
+    "icon": "units/Battle_elephant_aoe2DE.png",
     "counters": [
       3462,
       3461,
@@ -119,7 +119,7 @@
   "3356": {
     "id": 3356,
     "name": "Berserk",
-    "icon": "/units/BerserkIcon-DE.png",
+    "icon": "units/BerserkIcon-DE.png",
     "counters": [
       3433,
       3478,
@@ -138,14 +138,14 @@
   "3357": {
     "id": 3357,
     "name": "Bombard Cannon",
-    "icon": "/units/Bombard_cannon_aoe2DE.png",
+    "icon": "units/Bombard_cannon_aoe2DE.png",
     "counters": [],
     "type": "core"
   },
   "3358": {
     "id": 3358,
     "name": "Boyar",
-    "icon": "/units/BoyarIcon-DE.png",
+    "icon": "units/BoyarIcon-DE.png",
     "counters": [
       3462,
       3461,
@@ -165,7 +165,7 @@
   "3359": {
     "id": 3359,
     "name": "Buildings (in general)",
-    "icon": "/units/House.png",
+    "icon": "units/House.png",
     "counters": [
       3484,
       3466,
@@ -182,7 +182,7 @@
   "3360": {
     "id": 3360,
     "name": "Camel Archer",
-    "icon": "/units/CamelArcherIcon-DE.png",
+    "icon": "units/CamelArcherIcon-DE.png",
     "counters": [
       3477,
       3376,
@@ -194,7 +194,7 @@
   "3361": {
     "id": 3361,
     "name": "Camel Rider",
-    "icon": "/units/Camelrider_aoe2DE.png",
+    "icon": "units/Camelrider_aoe2DE.png",
     "counters": [
       3460,
       3479,
@@ -215,7 +215,7 @@
   "3362": {
     "id": 3362,
     "name": "Cannon Galleon",
-    "icon": "/units/Cannon_galleon_aoe2DE.png",
+    "icon": "units/Cannon_galleon_aoe2DE.png",
     "counters": [
       3357,
       3462,
@@ -229,7 +229,7 @@
   "3364": {
     "id": 3364,
     "name": "Caravel",
-    "icon": "/units/CaravelIcon-DE.png",
+    "icon": "units/CaravelIcon-DE.png",
     "counters": [
       3357,
       3458,
@@ -242,7 +242,7 @@
   "3365": {
     "id": 3365,
     "name": "Castle",
-    "icon": "/units/Castle.png",
+    "icon": "units/Castle.png",
     "counters": [
       3466,
       3484,
@@ -257,7 +257,7 @@
   "3366": {
     "id": 3366,
     "name": "Cataphract",
-    "icon": "/units/CataphractIcon-DE.png",
+    "icon": "units/CataphractIcon-DE.png",
     "counters": [
       3446,
       3488,
@@ -268,7 +268,7 @@
   "3368": {
     "id": 3368,
     "name": "Cavalry Archer",
-    "icon": "/units/Cavalryarcher_aoe2DE.png",
+    "icon": "units/Cavalryarcher_aoe2DE.png",
     "counters": [
       3477,
       3446,
@@ -290,7 +290,7 @@
   "3370": {
     "id": 3370,
     "name": "Chu Ko Nu",
-    "icon": "/units/ChukoNuIcon-DE.png",
+    "icon": "units/ChukoNuIcon-DE.png",
     "counters": [
       3477,
       3471,
@@ -304,7 +304,7 @@
   "3371": {
     "id": 3371,
     "name": "Condottiero",
-    "icon": "/units/CondottieroIcon-DE.png",
+    "icon": "units/CondottieroIcon-DE.png",
     "counters": [
       3352,
       3471,
@@ -318,7 +318,7 @@
   "3372": {
     "id": 3372,
     "name": "Conquistador",
-    "icon": "/units/ConquistadorIcon-DE.png",
+    "icon": "units/ConquistadorIcon-DE.png",
     "counters": [
       3371,
       3479,
@@ -337,14 +337,14 @@
   "3374": {
     "id": 3374,
     "name": "Demolition Raft",
-    "icon": "/units/Demoraft_aoe2DE.png",
+    "icon": "units/Demoraft_aoe2DE.png",
     "counters": [],
     "type": "core"
   },
   "3376": {
     "id": 3376,
     "name": "Eagle Scout",
-    "icon": "/units/Eaglescout_aoe2DE.png",
+    "icon": "units/Eaglescout_aoe2DE.png",
     "counters": [
       3433,
       3478,
@@ -365,7 +365,7 @@
   "3378": {
     "id": 3378,
     "name": "Elephant Archer",
-    "icon": "/units/ElephantArcherIcon-DE.png",
+    "icon": "units/ElephantArcherIcon-DE.png",
     "counters": [
       3462,
       3461,
@@ -386,7 +386,7 @@
   "3425": {
     "id": 3425,
     "name": "Flaming Camel",
-    "icon": "/units/Flaming_camel_icon.png",
+    "icon": "units/Flaming_camel_icon.png",
     "counters": [
       3365,
       3462,
@@ -402,7 +402,7 @@
   "3426": {
     "id": 3426,
     "name": "Fire Galley",
-    "icon": "/units/Fire_galley_aoe2DE.png",
+    "icon": "units/Fire_galley_aoe2DE.png",
     "counters": [
       3357,
       3458,
@@ -416,7 +416,7 @@
   "3428": {
     "id": 3428,
     "name": "Galley",
-    "icon": "/units/Galley_aoe2DE.png",
+    "icon": "units/Galley_aoe2DE.png",
     "counters": [
       3365,
       3485,
@@ -429,7 +429,7 @@
   "3429": {
     "id": 3429,
     "name": "Gbeto",
-    "icon": "/units/GbetoIcon-DE.png",
+    "icon": "units/GbetoIcon-DE.png",
     "counters": [
       3433,
       3462,
@@ -448,7 +448,7 @@
   "3430": {
     "id": 3430,
     "name": "Genitour",
-    "icon": "/units/GenitourIcon-DE.png",
+    "icon": "units/GenitourIcon-DE.png",
     "counters": [
       3357,
       3446,
@@ -463,7 +463,7 @@
   "3431": {
     "id": 3431,
     "name": "Genoese Crossbowman",
-    "icon": "/units/GenoeseCrossbowmanIcon-DE.png",
+    "icon": "units/GenoeseCrossbowmanIcon-DE.png",
     "counters": [
       3352,
       3471,
@@ -477,7 +477,7 @@
   "3433": {
     "id": 3433,
     "name": "Hand Cannoneer",
-    "icon": "/units/Hand_cannoneer_aoe2DE.png",
+    "icon": "units/Hand_cannoneer_aoe2DE.png",
     "counters": [
       3371,
       3477,
@@ -498,7 +498,7 @@
   "3438": {
     "id": 3438,
     "name": "Huskarl",
-    "icon": "/units/HuskarlIcon-DE.png",
+    "icon": "units/HuskarlIcon-DE.png",
     "counters": [
       3460,
       3458,
@@ -511,7 +511,7 @@
   "3439": {
     "id": 3439,
     "name": "Imperial Camel Rider",
-    "icon": "/units/ImperialCamelRiderIcon-DE.png",
+    "icon": "units/ImperialCamelRiderIcon-DE.png",
     "counters": [
       3460,
       3479,
@@ -526,7 +526,7 @@
   "3440": {
     "id": 3440,
     "name": "Imperial Skirmisher",
-    "icon": "/units/Imperialskirmishericon-DE.png",
+    "icon": "units/Imperialskirmishericon-DE.png",
     "counters": [
       3371,
       3460,
@@ -563,7 +563,7 @@
   "3442": {
     "id": 3442,
     "name": "Jaguar Warrior",
-    "icon": "/units/JaguarWarriorIcon-DE.png",
+    "icon": "units/JaguarWarriorIcon-DE.png",
     "counters": [
       3433,
       3478,
@@ -582,7 +582,7 @@
   "3443": {
     "id": 3443,
     "name": "Janissary",
-    "icon": "/units/JanissaryIcon-DE.png",
+    "icon": "units/JanissaryIcon-DE.png",
     "counters": [
       3357,
       3371,
@@ -598,7 +598,7 @@
   "3444": {
     "id": 3444,
     "name": "Kamayuk",
-    "icon": "/units/KamayukIcon-DE.png",
+    "icon": "units/KamayukIcon-DE.png",
     "counters": [
       3462,
       3461,
@@ -618,7 +618,7 @@
   "3445": {
     "id": 3445,
     "name": "Karambit Warrior",
-    "icon": "/units/Karambitwarrioricon-DE.png",
+    "icon": "units/Karambitwarrioricon-DE.png",
     "counters": [
       3433,
       3478,
@@ -639,7 +639,7 @@
   "3446": {
     "id": 3446,
     "name": "Knight",
-    "icon": "/units/Knight_aoe2DE.png",
+    "icon": "units/Knight_aoe2DE.png",
     "counters": [
       3462,
       3461,
@@ -659,7 +659,7 @@
   "3447": {
     "id": 3447,
     "name": "Keshik",
-    "icon": "/units/Keshikicon.png",
+    "icon": "units/Keshikicon.png",
     "counters": [
       3479,
       3361
@@ -669,7 +669,7 @@
   "3448": {
     "id": 3448,
     "name": "Konnik",
-    "icon": "/units/Konnikicon.png",
+    "icon": "units/Konnikicon.png",
     "counters": [
       3433,
       3479,
@@ -683,7 +683,7 @@
   "3449": {
     "id": 3449,
     "name": "Kipchak",
-    "icon": "/units/Kipchakicon.png",
+    "icon": "units/Kipchakicon.png",
     "counters": [
       3477,
       3361,
@@ -696,7 +696,7 @@
   "3450": {
     "id": 3450,
     "name": "Leitis",
-    "icon": "/units/Leitisicon.png",
+    "icon": "units/Leitisicon.png",
     "counters": [
       3352,
       3479,
@@ -708,7 +708,7 @@
   "3453": {
     "id": 3453,
     "name": "Longboat",
-    "icon": "/units/LongboatIcon-DE.png",
+    "icon": "units/LongboatIcon-DE.png",
     "counters": [
       3357,
       3458,
@@ -721,7 +721,7 @@
   "3454": {
     "id": 3454,
     "name": "Longbowman",
-    "icon": "/units/LongbowmanIcon-DE.png",
+    "icon": "units/LongbowmanIcon-DE.png",
     "counters": [
       3477,
       3458,
@@ -734,7 +734,7 @@
   "3455": {
     "id": 3455,
     "name": "Magyar Huszar",
-    "icon": "/units/MagyarHuszarIcon-DE.png",
+    "icon": "units/MagyarHuszarIcon-DE.png",
     "counters": [
       3479,
       3361,
@@ -752,7 +752,7 @@
   "3456": {
     "id": 3456,
     "name": "Mameluke",
-    "icon": "/units/MamelukeIcon-DE.png",
+    "icon": "units/MamelukeIcon-DE.png",
     "counters": [
       3479,
       3431,
@@ -763,7 +763,7 @@
   "3458": {
     "id": 3458,
     "name": "Mangonel",
-    "icon": "/units/Mangonel_aoe2DE.png",
+    "icon": "units/Mangonel_aoe2DE.png",
     "counters": [
       3357,
       3371,
@@ -789,7 +789,7 @@
   "3459": {
     "id": 3459,
     "name": "Mangudai",
-    "icon": "/units/MangudaiIcon-DE.png",
+    "icon": "units/MangudaiIcon-DE.png",
     "counters": [
       3479,
       3477,
@@ -807,7 +807,7 @@
   "3460": {
     "id": 3460,
     "name": "Militia",
-    "icon": "/units/MilitiaDE.png",
+    "icon": "units/MilitiaDE.png",
     "counters": [
       3433,
       3478,
@@ -836,7 +836,7 @@
   "3461": {
     "id": 3461,
     "name": "Missionary",
-    "icon": "/units/MissionaryIcon-DE.png",
+    "icon": "units/MissionaryIcon-DE.png",
     "counters": [
       3352,
       3376,
@@ -851,7 +851,7 @@
   "3462": {
     "id": 3462,
     "name": "Monk",
-    "icon": "/units/Monk_aoe2DE.png",
+    "icon": "units/Monk_aoe2DE.png",
     "counters": [
       3472,
       3376,
@@ -867,7 +867,7 @@
   "3464": {
     "id": 3464,
     "name": "Organ Gun",
-    "icon": "/units/OrganGunIcon-DE.png",
+    "icon": "units/OrganGunIcon-DE.png",
     "counters": [
       3357,
       3371,
@@ -879,7 +879,7 @@
   "3466": {
     "id": 3466,
     "name": "Petard",
-    "icon": "/units/Petard.png",
+    "icon": "units/Petard.png",
     "counters": [
       3352,
       3471,
@@ -894,7 +894,7 @@
   "3468": {
     "id": 3468,
     "name": "Plumed Archer",
-    "icon": "/units/PlumedArcherIcon-DE.png",
+    "icon": "units/PlumedArcherIcon-DE.png",
     "counters": [
       3477,
       3471,
@@ -910,7 +910,7 @@
   "3469": {
     "id": 3469,
     "name": "Rattan Archer",
-    "icon": "/units/Rattanarchericon-DE.png",
+    "icon": "units/Rattanarchericon-DE.png",
     "counters": [
       3357,
       3458,
@@ -924,7 +924,7 @@
   "3470": {
     "id": 3470,
     "name": "Samurai",
-    "icon": "/units/SamuraiIcon-DE.png",
+    "icon": "units/SamuraiIcon-DE.png",
     "counters": [
       3433,
       3352,
@@ -935,7 +935,7 @@
   "3471": {
     "id": 3471,
     "name": "Scorpion",
-    "icon": "/units/Scorpion_aoe2DE.png",
+    "icon": "units/Scorpion_aoe2DE.png",
     "counters": [
       3357,
       3371,
@@ -958,7 +958,7 @@
   "3472": {
     "id": 3472,
     "name": "Scout Cavalry",
-    "icon": "/units/Scoutcavalry_aoe2DE.png",
+    "icon": "units/Scoutcavalry_aoe2DE.png",
     "counters": [
       3479,
       3361,
@@ -980,7 +980,7 @@
   "3473": {
     "id": 3473,
     "name": "Shotel Warrior",
-    "icon": "/units/Shotelwarrioricon-DE.png",
+    "icon": "units/Shotelwarrioricon-DE.png",
     "counters": [
       3433,
       3443,
@@ -994,7 +994,7 @@
   "3476": {
     "id": 3476,
     "name": "Siege Tower",
-    "icon": "/units/Siegetower_aoe2DE.png",
+    "icon": "units/Siegetower_aoe2DE.png",
     "counters": [
       3439,
       3446,
@@ -1016,7 +1016,7 @@
   "3477": {
     "id": 3477,
     "name": "Skirmisher",
-    "icon": "/units/Skirmisher_aoe2DE.png",
+    "icon": "units/Skirmisher_aoe2DE.png",
     "counters": [
       3371,
       3460,
@@ -1053,7 +1053,7 @@
   "3478": {
     "id": 3478,
     "name": "Slinger",
-    "icon": "/units/SlingerIcon-DE.png",
+    "icon": "units/SlingerIcon-DE.png",
     "counters": [
       3477,
       3446,
@@ -1066,7 +1066,7 @@
   "3479": {
     "id": 3479,
     "name": "Spearman",
-    "icon": "/units/Spearman_aoe2DE.png",
+    "icon": "units/Spearman_aoe2DE.png",
     "counters": [
       3433,
       3478,
@@ -1093,7 +1093,7 @@
   "3480": {
     "id": 3480,
     "name": "Steppe Lancer",
-    "icon": "/units/Steppelancericon.png",
+    "icon": "units/Steppelancericon.png",
     "counters": [
       3361,
       3431,
@@ -1110,7 +1110,7 @@
   "3481": {
     "id": 3481,
     "name": "Tarkan",
-    "icon": "/units/TarkanIcon-DE.png",
+    "icon": "units/TarkanIcon-DE.png",
     "counters": [
       3361,
       3456,
@@ -1123,7 +1123,7 @@
   "3482": {
     "id": 3482,
     "name": "Teutonic Knight",
-    "icon": "/units/TeutonicKnightIcon-DE.png",
+    "icon": "units/TeutonicKnightIcon-DE.png",
     "counters": [
       3433,
       3462,
@@ -1143,7 +1143,7 @@
   "3483": {
     "id": 3483,
     "name": "Throwing Axeman",
-    "icon": "/units/ThrowingAxemanIcon-DE.png",
+    "icon": "units/ThrowingAxemanIcon-DE.png",
     "counters": [
       3433,
       3478,
@@ -1162,7 +1162,7 @@
   "3484": {
     "id": 3484,
     "name": "Trebuchet",
-    "icon": "/units/Trebuchet_aoe2DE.png",
+    "icon": "units/Trebuchet_aoe2DE.png",
     "counters": [
       3357,
       3466,
@@ -1185,7 +1185,7 @@
   "3485": {
     "id": 3485,
     "name": "Turtle Ship",
-    "icon": "/units/TurtleShipIcon-DE.png",
+    "icon": "units/TurtleShipIcon-DE.png",
     "counters": [
       3357,
       3462,
@@ -1198,14 +1198,14 @@
   "3487": {
     "id": 3487,
     "name": "Villager",
-    "icon": "/units/Villager.jpg",
+    "icon": "units/Villager.jpg",
     "counters": [],
     "type": "core"
   },
   "3488": {
     "id": 3488,
     "name": "War Elephant",
-    "icon": "/units/WarElephantIcon-DE.png",
+    "icon": "units/WarElephantIcon-DE.png",
     "counters": [
       3462,
       3461,
@@ -1223,7 +1223,7 @@
   "3490": {
     "id": 3490,
     "name": "War Wagon",
-    "icon": "/units/WarWagonIcon-DE.png",
+    "icon": "units/WarWagonIcon-DE.png",
     "counters": [
       3462,
       3461,
@@ -1245,7 +1245,7 @@
   "3491": {
     "id": 3491,
     "name": "Woad Raider",
-    "icon": "/units/WoadRaiderIcon-DE.png",
+    "icon": "units/WoadRaiderIcon-DE.png",
     "counters": [
       3433,
       3478,
@@ -1262,49 +1262,49 @@
   "3492": {
     "id": 3492,
     "name": "Serjeant",
-    "icon": "/units/Aoe2-icon-serjeant.png",
+    "icon": "units/Aoe2-icon-serjeant.png",
     "counters": [],
     "type": "unique"
   },
   "3493": {
     "id": 3493,
     "name": "Coustillier",
-    "icon": "/units/Aoe2-icon-coustillier.png",
+    "icon": "units/Aoe2-icon-coustillier.png",
     "counters": [],
     "type": "unique"
   },
   "3494": {
     "id": 3494,
     "name": "Flemish Militia",
-    "icon": "/units/Aoe2-icon-flemish-militia.png",
+    "icon": "units/Aoe2-icon-flemish-militia.png",
     "counters": [],
     "type": "unique"
   },
   "3495": {
     "id": 3495,
     "name": "Hussite Wagon",
-    "icon": "/units/Aoe2-icon-hussitewagon.png",
+    "icon": "units/Aoe2-icon-hussitewagon.png",
     "counters": [],
     "type": "unique"
   },
   "3496": {
     "id": 3496,
     "name": "Obuch",
-    "icon": "/units/Aoe2-icon-Obuch.png",
+    "icon": "units/Aoe2-icon-Obuch.png",
     "counters": [],
     "type": "unique"
   },
   "3498": {
     "id": 3498,
     "name": "Winged Hussar",
-    "icon": "/units/Winged_Hussar.png",
+    "icon": "units/Winged_Hussar.png",
     "counters": [],
     "type": "regional"
   },
   "3499": {
     "id": 3499,
     "name": "Houfnice",
-    "icon": "/units/Aoe2-icon-houfnice.jpg",
+    "icon": "units/Aoe2-icon-houfnice.jpg",
     "counters": [],
     "type": "unique"
   }
